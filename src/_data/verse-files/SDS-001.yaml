@@ -1,0 +1,578 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-001
+  order: 1
+  display_number: "॥ १ ॥"
+
+source:
+  devanagari: |
+    विश्वं दर्पणदृश्यमाननगरीतुल्यं निजान्तर्गतं
+    पश्यन्नात्मनि मायया बहिरिवोद्भूतं यथा निद्रया ।
+    यः साक्षात्कुरुते प्रबोधसमये स्वात्मानमेवाद्वयं
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    viśvaṃ darpaṇa-dṛśyamāna-nagarī-tulyaṃ nijāntargataṃ
+    paśyann ātmani māyayā bahir ivodbhūtaṃ yathā nidrayā |
+    yaḥ sākṣāt kurute prabodha-samaye svātmānam evādvayaṃ
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: विश्वम्
+    lemma: विश्व
+    dictionary_headword: विश्व
+
+    iast:
+      surface: viśvam
+      lemma: viśva
+    pos: noun
+    gender: neuter
+    number: singular
+    case: accusative
+    gloss: universe
+    compound:
+      member: false
+
+  - id: LU-002
+    surface: दर्पण
+    lemma: दर्पण
+    dictionary_headword: दर्पण
+
+    iast:
+      surface: darpaṇa
+      lemma: darpaṇa
+    pos: noun
+    gender: masculine
+    number: singular
+    case: stem
+    gloss: mirror
+    compound:
+      member: true
+
+  - id: LU-003
+    surface: दृश्यमान
+    lemma: दृश्यमान
+    dictionary_headword: दृश्यमान
+
+    iast:
+      surface: dṛśyamāna
+      lemma: dṛśyamāna
+    pos: participle
+    verbal_root: दृश्
+    participle: present passive participle
+    gloss: appearing
+    compound:
+      member: true
+
+  - id: LU-004
+    surface: नगरी
+    lemma: नगरी
+    dictionary_headword: नगरी
+
+    iast:
+      surface: nagarī
+      lemma: nagarī
+    pos: noun
+    gender: feminine
+    gloss: city
+    compound:
+      member: true
+
+  - id: LU-005
+    surface: तुल्यम्
+    lemma: तुल्य
+    dictionary_headword: तुल्य
+
+    iast:
+      surface: tulyam
+      lemma: tulya
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: true
+
+    gloss: like
+
+  - id: LU-006
+    surface: निज
+    lemma: निज
+    dictionary_headword: निज
+
+    iast:
+      surface: nija
+      lemma: nija
+
+    pos: adjective
+
+    compound:
+      member: false
+
+    gloss: one's own
+
+  - id: LU-007
+    surface: अन्तर्गतम्
+    lemma: अन्तर्गत
+    dictionary_headword: अन्तर्गत
+
+    iast:
+      surface: antargatam
+      lemma: antargata
+
+    pos: adjective
+
+    verbal_root: गम्
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: contained within
+
+  - id: LU-008
+    surface: पश्यन्
+    lemma: पश्यत्
+    dictionary_headword: पश्यत्
+
+    iast:
+      surface: paśyan
+      lemma: paśyat
+
+    pos: participle
+
+    verbal_root: दृश्
+
+    participle: present active participle
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: seeing
+
+  - id: LU-009
+    surface: मायया
+    lemma: माया
+    dictionary_headword: माया
+
+    iast:
+      surface: māyayā
+      lemma: māyā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: māyā
+
+  - id: LU-010
+    surface: बहिः
+    lemma: बहिस्
+    dictionary_headword: बहिस्
+
+    iast:
+      surface: bahiḥ
+      lemma: bahis
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: outside
+
+  - id: LU-011
+    surface: इव
+    lemma: इव
+    dictionary_headword: इव
+
+    iast:
+      surface: iva
+      lemma: iva
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: like
+
+  - id: LU-012
+    surface: उद्भूतम्
+    lemma: उद्भूत
+    dictionary_headword: उद्भूत
+
+    iast:
+      surface: udbhūtam
+      lemma: udbhūta
+
+    pos: adjective
+
+    verbal_root: भू
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: arisen
+
+  - id: LU-013
+    surface: यथा
+    lemma: यथा
+    dictionary_headword: यथा
+
+    iast:
+      surface: yathā
+      lemma: yathā
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: just as
+
+  - id: LU-014
+    surface: निद्रया
+    lemma: निद्रा
+    dictionary_headword: निद्रा
+
+    iast:
+      surface: nidrayā
+      lemma: nidrā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: sleep
+
+  - id: LU-015
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-016
+    surface: साक्षात्
+    lemma: साक्षात्
+    dictionary_headword: साक्षात्
+
+    iast:
+      surface: sākṣāt
+      lemma: sākṣāt
+
+    pos: adverb
+
+    compound:
+      member: false
+
+    gloss: directly
+
+  - id: LU-017
+    surface: कुरुते
+    lemma: कृ
+    dictionary_headword: कृ
+
+    iast:
+      surface: kurute
+      lemma: kṛ
+
+    pos: verb
+
+    verbal_root: कृ
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: ātmanepada
+
+    compound:
+      member: false
+
+    gloss: does
+
+  - id: LU-018
+    surface: प्रबोधसमये
+    lemma: प्रबोधसमय
+    dictionary_headword: प्रबोधसमय
+
+    iast:
+      surface: prabodhasamaye
+      lemma: prabodhasamaya
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: true
+
+    gloss: time of awakening
+
+  - id: LU-019
+    surface: स्वात्मानम्
+    lemma: स्वात्मन्
+    dictionary_headword: स्वात्मन्
+
+    iast:
+      surface: svātmānam
+      lemma: svātman
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: true
+
+    gloss: svātman
+
+  - id: LU-020
+    surface: एव
+    lemma: एव
+    dictionary_headword: एव
+
+    iast:
+      surface: eva
+      lemma: eva
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-021
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: to that
+
+  - id: LU-022
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-023
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-024
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-025
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: the universe
+
+  - lexical_unit: LU-002
+    meaning: a mirror
+
+  - lexical_unit: LU-003
+    meaning: appearing
+
+  - lexical_unit: LU-004
+    meaning: a city
+
+  - lexical_unit: LU-005
+    meaning: like
+
+  - lexical_unit: LU-006
+    meaning: one's own
+
+  - lexical_unit: LU-007
+    meaning: contained within
+
+  - lexical_unit: LU-008
+    meaning: seeing
+
+  - lexical_unit: LU-009
+    meaning: through māyā
+
+  - lexical_unit: LU-010
+    meaning: outside
+
+  - lexical_unit: LU-011
+    meaning: as if
+
+  - lexical_unit: LU-012
+    meaning: arisen
+
+  - lexical_unit: LU-013
+    meaning: just as
+
+  - lexical_unit: LU-014
+    meaning: through sleep
+
+  - lexical_unit: LU-015
+    meaning: who
+
+  - lexical_unit: LU-016
+    meaning: directly
+
+  - lexical_unit: LU-017
+    meaning: does
+
+  - lexical_unit: LU-018
+    meaning: at the time of awakening
+
+  - lexical_unit: LU-019
+    meaning: svātman
+
+  - lexical_unit: LU-020
+    meaning: indeed
+
+  - lexical_unit: LU-021
+    meaning: unto Him
+
+  - lexical_unit: LU-022
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-023
+    meaning: salutation
+
+  - lexical_unit: LU-024
+    meaning: this
+
+  - lexical_unit: LU-025
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    The entire universe, though abiding within one's own Self,
+    appears, through māyā, as though projected outward, like a city
+    reflected in a mirror. Just as, upon awakening from sleep,
+    one directly realizes one's own Self, so this salutation is
+    offered to Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti.

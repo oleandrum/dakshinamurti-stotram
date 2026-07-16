@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+title: "Glossary"
+---
+<div class="wrap prose">
+  <h1>Glossary</h1>
+  <p>Every distinct word appearing across all verses, drawn automatically from the word-by-word data. Each entry links back to the verse(s) where it occurs.</p>
+
+  <ul class="glossary-list">
+    {% for entry in glossary %}
+    <li class="glossary-entry">
+      <span class="glossary-headword">{{ entry.headword }}</span>
+      <span class="glossary-iast">{{ entry.lemmaIast }}</span>
+      <span class="glossary-gloss">{{ entry.gloss }}</span>
+      <span class="glossary-occurrences">
+        {% for occ in entry.occurrences %}
+          <a href="/verses/{{ occ.verseId | slugify }}/">{{ occ.displayNumber }}</a>
+        {% endfor %}
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

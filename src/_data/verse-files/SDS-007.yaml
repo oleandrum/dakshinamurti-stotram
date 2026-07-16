@@ -1,0 +1,604 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-007
+  order: 7
+  display_number: "॥ ७ ॥"
+
+source:
+  devanagari: |
+    बाल्यादिष्वपि जाग्रदादिषु तथा सर्वास्ववस्थास्वपि
+    व्यावृत्तास्वनुवर्तमानमहमीत्यन्तः स्फुरन्तं सदा ।
+    स्वात्मानं प्रकटीकरोति भजतां यो मुद्रया भद्रया
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    bālyādiṣvapi jāgradādiṣu tathā sarvāsvavasthāsvapi
+    vyāvṛttāsvanuvartamānamahamītyantaḥ sphurantaṃ sadā |
+    svātmānaṃ prakaṭīkaroti bhajatāṃ yo mudrayā bhadrayā
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: बाल्यादिषु
+    lemma: बाल्यादि
+    dictionary_headword: बाल्यादि
+
+    iast:
+      surface: bālyādiṣu
+      lemma: bālyādi
+
+    pos: noun
+
+    gender: neuter
+    number: plural
+    case: locative
+
+    compound:
+      member: true
+
+    gloss: in childhood and the other stages of life
+
+  - id: LU-002
+    surface: अपि
+    lemma: अपि
+    dictionary_headword: अपि
+
+    iast:
+      surface: api
+      lemma: api
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: also
+
+  - id: LU-003
+    surface: जाग्रदादिषु
+    lemma: जाग्रदादि
+    dictionary_headword: जाग्रदादि
+
+    iast:
+      surface: jāgradādiṣu
+      lemma: jāgradādi
+
+    pos: noun
+
+    gender: neuter
+    number: plural
+    case: locative
+
+    compound:
+      member: true
+
+    gloss: in waking and the other states
+
+  - id: LU-004
+    surface: तथा
+    lemma: तथा
+    dictionary_headword: तथा
+
+    iast:
+      surface: tathā
+      lemma: tathā
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: likewise
+
+  - id: LU-005
+    surface: सर्वासु
+    lemma: सर्व
+    dictionary_headword: सर्व
+
+    iast:
+      surface: sarvāsu
+      lemma: sarva
+
+    pos: adjective
+
+    gender: feminine
+    number: plural
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: in all
+
+  - id: LU-006
+    surface: अवस्थासु
+    lemma: अवस्था
+    dictionary_headword: अवस्था
+
+    iast:
+      surface: avasthāsu
+      lemma: avasthā
+
+    pos: noun
+
+    gender: feminine
+    number: plural
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: states
+
+  - id: LU-007
+    surface: अपि
+    lemma: अपि
+    dictionary_headword: अपि
+
+    iast:
+      surface: api
+      lemma: api
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: also
+
+  - id: LU-008
+    surface: व्यावृत्तासु
+    lemma: व्यावृत्त
+    dictionary_headword: व्यावृत्त
+
+    iast:
+      surface: vyāvṛttāsu
+      lemma: vyāvṛtta
+
+    pos: participle
+
+    verbal_root: वृत्
+
+    participle: past passive participle
+
+    gender: feminine
+    number: plural
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: having passed away
+
+  - id: LU-009
+    surface: अनुवर्तमानम्
+    lemma: अनुवर्तमान
+    dictionary_headword: अनुवर्तमान
+
+    iast:
+      surface: anuvartamānam
+      lemma: anuvartamāna
+
+    pos: participle
+
+    verbal_root: वृत्
+
+    participle: present middle participle
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: continuing
+
+  - id: LU-010
+    surface: अहम्
+    lemma: अहम्
+    dictionary_headword: अहम्
+
+    iast:
+      surface: aham
+      lemma: aham
+
+    pos: pronoun
+
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: I
+
+  - id: LU-011
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-012
+    surface: अन्तः
+    lemma: अन्तः
+    dictionary_headword: अन्तः
+
+    iast:
+      surface: antaḥ
+      lemma: antaḥ
+
+    pos: adverb
+
+    compound:
+      member: false
+
+    gloss: within
+
+  - id: LU-013
+    surface: स्फुरन्तम्
+    lemma: स्फुरत्
+    dictionary_headword: स्फुरत्
+
+    iast:
+      surface: sphurantam
+      lemma: sphurat
+
+    pos: participle
+
+    verbal_root: स्फुर्
+
+    participle: present active participle
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: shining forth
+
+  - id: LU-014
+    surface: सदा
+    lemma: सदा
+    dictionary_headword: सदा
+
+    iast:
+      surface: sadā
+      lemma: sadā
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: always
+
+  - id: LU-015
+    surface: स्वात्मानम्
+    lemma: स्वात्मन्
+    dictionary_headword: स्वात्मन्
+
+    iast:
+      surface: svātmānam
+      lemma: svātman
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: true
+
+    gloss: one's own Self
+
+  - id: LU-016
+    surface: प्रकटीकरोति
+    lemma: प्रकटीकृ
+    dictionary_headword: प्रकटीकृ
+
+    iast:
+      surface: prakaṭīkaroti
+      lemma: prakaṭīkṛ
+
+    pos: verb
+
+    verbal_root: कृ
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: reveals
+
+  - id: LU-017
+    surface: भजताम्
+    lemma: भजत्
+    dictionary_headword: भजत्
+
+    iast:
+      surface: bhajatām
+      lemma: bhajat
+
+    pos: participle
+
+    verbal_root: भज्
+
+    participle: present active participle
+
+    gender: masculine
+    number: plural
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: of those who worship
+
+  - id: LU-018
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-019
+    surface: मुद्रया
+    lemma: मुद्रा
+    dictionary_headword: मुद्रा
+
+    iast:
+      surface: mudrayā
+      lemma: mudrā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: by the gesture
+
+  - id: LU-020
+    surface: भद्रया
+    lemma: भद्र
+    dictionary_headword: भद्र
+
+    iast:
+      surface: bhadrayā
+      lemma: bhadrā
+
+    pos: adjective
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: auspicious
+
+  - id: LU-021
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-022
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-023
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-024
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-025
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: in childhood and the other stages of life
+
+  - lexical_unit: LU-002
+    meaning: also
+
+  - lexical_unit: LU-003
+    meaning: in the waking state and the other states
+
+  - lexical_unit: LU-004
+    meaning: likewise
+
+  - lexical_unit: LU-005
+    meaning: in all
+
+  - lexical_unit: LU-006
+    meaning: states
+
+  - lexical_unit: LU-007
+    meaning: also
+
+  - lexical_unit: LU-008
+    meaning: having passed away
+
+  - lexical_unit: LU-009
+    meaning: continuing
+
+  - lexical_unit: LU-010
+    meaning: I
+
+  - lexical_unit: LU-011
+    meaning: thus
+
+  - lexical_unit: LU-012
+    meaning: within
+
+  - lexical_unit: LU-013
+    meaning: shining forth
+
+  - lexical_unit: LU-014
+    meaning: always
+
+  - lexical_unit: LU-015
+    meaning: one's own Self
+
+  - lexical_unit: LU-016
+    meaning: reveals
+
+  - lexical_unit: LU-017
+    meaning: of those who worship
+
+  - lexical_unit: LU-018
+    meaning: who
+
+  - lexical_unit: LU-019
+    meaning: by the gesture
+
+  - lexical_unit: LU-020
+    meaning: auspicious
+
+  - lexical_unit: LU-021
+    meaning: unto Him
+
+  - lexical_unit: LU-022
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-023
+    meaning: salutation
+
+  - lexical_unit: LU-024
+    meaning: this
+
+  - lexical_unit: LU-025
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Through childhood, youth, and the other stages of life; through
+    the waking, dream, and deep sleep states; indeed through all
+    changing conditions, there ever shines within the unbroken
+    awareness, "I am." He who reveals one's own true Self to those
+    devoted to Him by means of the auspicious gesture (jñāna-mudrā),
+    to that Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this salutation is
+    offered.

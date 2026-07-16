@@ -1,0 +1,674 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-009
+  order: 9
+  display_number: "॥ ९ ॥"
+
+source:
+  devanagari: |
+    भूरम्भांस्यनलोऽनिलोऽम्बरमहर्नाथो हिमांशुः पुमान्
+    इत्याभाति चराचरात्मकमिदं यस्यैव मूर्त्यष्टकम् ।
+    नान्यत्किञ्चन विद्यते विमृशतां यस्मात्परस्माद्विभोः
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    bhūrambhāṃsyanalo'nilo'mbaramahar-nātho himāṃśuḥ pumān
+    ityābhāti carācarātmakamidaṃ yasyaiva mūrtyaṣṭakam |
+    nānyatkiñcana vidyate vimṛśatāṃ yasmātparasmādvibhoḥ
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: भूः
+    lemma: भू
+    dictionary_headword: भू
+
+    iast:
+      surface: bhūḥ
+      lemma: bhū
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: earth
+
+  - id: LU-002
+    surface: अम्भांसि
+    lemma: अम्भस्
+    dictionary_headword: अम्भस्
+
+    iast:
+      surface: ambhāṃsi
+      lemma: ambhas
+
+    pos: noun
+
+    gender: neuter
+    number: plural
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: waters
+
+  - id: LU-003
+    surface: अनलः
+    lemma: अनल
+    dictionary_headword: अनल
+
+    iast:
+      surface: analaḥ
+      lemma: anala
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: fire
+
+  - id: LU-004
+    surface: अनिलः
+    lemma: अनिल
+    dictionary_headword: अनिल
+
+    iast:
+      surface: anilaḥ
+      lemma: anila
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: wind
+
+  - id: LU-005
+    surface: अम्बरम्
+    lemma: अम्बर
+    dictionary_headword: अम्बर
+
+    iast:
+      surface: ambaram
+      lemma: ambara
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: space
+
+  - id: LU-006
+    surface: अहर्नाथः
+    lemma: अहर्नाथ
+    dictionary_headword: अहर्नाथ
+
+    iast:
+      surface: aharnāthaḥ
+      lemma: aharnātha
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: the sun
+
+  - id: LU-007
+    surface: हिमांशुः
+    lemma: हिमांशु
+    dictionary_headword: हिमांशु
+
+    iast:
+      surface: himāṃśuḥ
+      lemma: himāṃśu
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: the moon
+
+  - id: LU-008
+    surface: पुमान्
+    lemma: पुमान्
+    dictionary_headword: पुमान्
+
+    iast:
+      surface: pumān
+      lemma: pumān
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: true
+
+    gloss: the person
+
+  - id: LU-009
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-010
+    surface: आभाति
+    lemma: आभा
+    dictionary_headword: आभा
+
+    iast:
+      surface: ābhāti
+      lemma: ābhā
+
+    pos: verb
+
+    verbal_root: भा
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: appears
+
+  - id: LU-011
+    surface: चराचरात्मकम्
+    lemma: चराचरात्मक
+    dictionary_headword: चराचरात्मक
+
+    iast:
+      surface: carācarātmakam
+      lemma: carācarātmaka
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: consisting of the moving and the unmoving
+
+  - id: LU-012
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-013
+    surface: यस्य
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yasya
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: whose
+
+  - id: LU-014
+    surface: एव
+    lemma: एव
+    dictionary_headword: एव
+
+    iast:
+      surface: eva
+      lemma: eva
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: alone
+
+  - id: LU-015
+    surface: मूर्त्यष्टकम्
+    lemma: मूर्त्यष्टक
+    dictionary_headword: मूर्त्यष्टक
+
+    iast:
+      surface: mūrtyaṣṭakam
+      lemma: mūrtyaṣṭaka
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: the eightfold manifestation
+
+  - id: LU-016
+    surface: न
+    lemma: न
+    dictionary_headword: न
+
+    iast:
+      surface: na
+      lemma: na
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: not
+
+  - id: LU-017
+    surface: अन्यत्
+    lemma: अन्य
+    dictionary_headword: अन्य
+
+    iast:
+      surface: anyat
+      lemma: anya
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: anything else
+
+  - id: LU-018
+    surface: किञ्चन
+    lemma: किञ्चन
+    dictionary_headword: किञ्चन
+
+    iast:
+      surface: kiñcana
+      lemma: kiñcana
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: whatsoever
+
+  - id: LU-019
+    surface: विद्यते
+    lemma: विद्
+    dictionary_headword: विद्
+
+    iast:
+      surface: vidyate
+      lemma: vid
+
+    pos: verb
+
+    verbal_root: विद्
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: exists
+
+  - id: LU-020
+    surface: विमृशताम्
+    lemma: विमृशत्
+    dictionary_headword: विमृशत्
+
+    iast:
+      surface: vimṛśatām
+      lemma: vimṛśat
+
+    pos: participle
+
+    verbal_root: मृश्
+
+    participle: present active participle
+
+    gender: masculine
+    number: plural
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: of those who inquire
+
+  - id: LU-021
+    surface: यस्मात्
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yasmāt
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from whom
+
+  - id: LU-022
+    surface: परस्मात्
+    lemma: पर
+    dictionary_headword: पर
+
+    iast:
+      surface: parasmāt
+      lemma: para
+
+    pos: adjective
+
+    gender: masculine
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: supreme
+
+  - id: LU-023
+    surface: विभोः
+    lemma: विभु
+    dictionary_headword: विभु
+
+    iast:
+      surface: vibhoḥ
+      lemma: vibhu
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: of the all-pervading Lord
+
+  - id: LU-024
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-025
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-026
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-027
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-028
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: earth
+
+  - lexical_unit: LU-002
+    meaning: waters
+
+  - lexical_unit: LU-003
+    meaning: fire
+
+  - lexical_unit: LU-004
+    meaning: wind
+
+  - lexical_unit: LU-005
+    meaning: space
+
+  - lexical_unit: LU-006
+    meaning: the sun
+
+  - lexical_unit: LU-007
+    meaning: the moon
+
+  - lexical_unit: LU-008
+    meaning: the person
+
+  - lexical_unit: LU-009
+    meaning: thus
+
+  - lexical_unit: LU-010
+    meaning: appears
+
+  - lexical_unit: LU-011
+    meaning: consisting of the moving and the unmoving
+
+  - lexical_unit: LU-012
+    meaning: this
+
+  - lexical_unit: LU-013
+    meaning: whose
+
+  - lexical_unit: LU-014
+    meaning: alone
+
+  - lexical_unit: LU-015
+    meaning: the eightfold manifestation
+
+  - lexical_unit: LU-016
+    meaning: not
+
+  - lexical_unit: LU-017
+    meaning: anything else
+
+  - lexical_unit: LU-018
+    meaning: whatsoever
+
+  - lexical_unit: LU-019
+    meaning: exists
+
+  - lexical_unit: LU-020
+    meaning: of those who inquire
+
+  - lexical_unit: LU-021
+    meaning: from whom
+
+  - lexical_unit: LU-022
+    meaning: the Supreme
+
+  - lexical_unit: LU-023
+    meaning: of the all-pervading Lord
+
+  - lexical_unit: LU-024
+    meaning: unto Him
+
+  - lexical_unit: LU-025
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-026
+    meaning: salutation
+
+  - lexical_unit: LU-027
+    meaning: this
+
+  - lexical_unit: LU-028
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Earth, water, fire, air, space, the sun, the moon, and the
+    individual being—these eight comprise His manifold manifestation,
+    embracing all that is moving and unmoving. Beyond this all-pervading
+    Reality there exists nothing whatsoever for those who inquire into
+    the Truth. To that Supreme, all-pervading Śrī Gurumūrti, to Śrī
+    Dakṣiṇāmūrti, this salutation is offered.

@@ -1,0 +1,766 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-005
+  order: 5
+  display_number: "॥ ५ ॥"
+
+source:
+  devanagari: |
+    देहं प्राणमपीन्द्रियाण्यपि चलां बुद्धिं च शून्यं विदुः
+    स्त्रीबालान्धजडोपमास्त्वहमिति भ्रान्ता भृशं वादिनः ।
+    मायाशक्तिविलासकल्पितमहाव्यामोहसंहारिणे
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    dehaṃ prāṇam apīndriyāṇy api calāṃ buddhiṃ ca śūnyaṃ viduḥ
+    strībālāndhajaḍopamās tv aham iti bhrāntā bhṛśaṃ vādinaḥ |
+    māyāśaktivilāsakalpitamahāvyāmohasaṃhāriṇe
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: देहम्
+    lemma: देह
+    dictionary_headword: देह
+
+    iast:
+      surface: deham
+      lemma: deha
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: body
+
+  - id: LU-002
+    surface: प्राणम्
+    lemma: प्राण
+    dictionary_headword: प्राण
+
+    iast:
+      surface: prāṇam
+      lemma: prāṇa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: vital breath
+
+  - id: LU-003
+    surface: अपि
+    lemma: अपि
+    dictionary_headword: अपि
+
+    iast:
+      surface: api
+      lemma: api
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: also
+
+  - id: LU-004
+    surface: इन्द्रियाणि
+    lemma: इन्द्रिय
+    dictionary_headword: इन्द्रिय
+
+    iast:
+      surface: indriyāṇi
+      lemma: indriya
+
+    pos: noun
+
+    gender: neuter
+    number: plural
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: sense organs
+
+  - id: LU-005
+    surface: अपि
+    lemma: अपि
+    dictionary_headword: अपि
+
+    iast:
+      surface: api
+      lemma: api
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: also
+
+  - id: LU-006
+    surface: चलाम्
+    lemma: चल
+    dictionary_headword: चल
+
+    iast:
+      surface: calām
+      lemma: calā
+
+    pos: adjective
+
+    gender: feminine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: changing
+
+  - id: LU-007
+    surface: बुद्धिम्
+    lemma: बुद्धि
+    dictionary_headword: बुद्धि
+
+    iast:
+      surface: buddhim
+      lemma: buddhi
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: intellect
+
+  - id: LU-008
+    surface: च
+    lemma: च
+    dictionary_headword: च
+
+    iast:
+      surface: ca
+      lemma: ca
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: and
+
+  - id: LU-009
+    surface: शून्यम्
+    lemma: शून्य
+    dictionary_headword: शून्य
+
+    iast:
+      surface: śūnyam
+      lemma: śūnya
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: void
+
+  - id: LU-010
+    surface: विदुः
+    lemma: विद्
+    dictionary_headword: विद्
+
+    iast:
+      surface: viduḥ
+      lemma: vid
+
+    pos: verb
+
+    verbal_root: विद्
+
+    lakara: laṭ
+    person: third
+    number: plural
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: consider
+
+  - id: LU-011
+    surface: स्त्री
+    lemma: स्त्री
+    dictionary_headword: स्त्री
+
+    iast:
+      surface: strī
+      lemma: strī
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: woman
+
+  - id: LU-012
+    surface: बाल
+    lemma: बाल
+    dictionary_headword: बाल
+
+    iast:
+      surface: bāla
+      lemma: bāla
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: child
+
+  - id: LU-013
+    surface: अन्ध
+    lemma: अन्ध
+    dictionary_headword: अन्ध
+
+    iast:
+      surface: andha
+      lemma: andha
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: blind
+
+  - id: LU-014
+    surface: जड
+    lemma: जड
+    dictionary_headword: जड
+
+    iast:
+      surface: jaḍa
+      lemma: jaḍa
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: dull
+
+  - id: LU-015
+    surface: उपमाः
+    lemma: उपम
+    dictionary_headword: उपम
+
+    iast:
+      surface: upamāḥ
+      lemma: upama
+
+    pos: adjective
+
+    gender: masculine
+    number: plural
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: resembling
+
+  - id: LU-016
+    surface: तु
+    lemma: तु
+    dictionary_headword: तु
+
+    iast:
+      surface: tu
+      lemma: tu
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-017
+    surface: अहम्
+    lemma: अहम्
+    dictionary_headword: अहम्
+
+    iast:
+      surface: aham
+      lemma: aham
+
+    pos: pronoun
+
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: I
+
+  - id: LU-018
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-019
+    surface: भ्रान्ताः
+    lemma: भ्रान्त
+    dictionary_headword: भ्रान्त
+
+    iast:
+      surface: bhrāntāḥ
+      lemma: bhrānta
+
+    pos: participle
+
+    verbal_root: भ्रम्
+
+    participle: past passive participle
+
+    gender: masculine
+    number: plural
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: deluded
+
+  - id: LU-020
+    surface: भृशम्
+    lemma: भृशम्
+    dictionary_headword: भृशम्
+
+    iast:
+      surface: bhṛśam
+      lemma: bhṛśam
+
+    pos: adverb
+
+    compound:
+      member: false
+
+    gloss: greatly
+
+  - id: LU-021
+    surface: वादिनः
+    lemma: वादिन्
+    dictionary_headword: वादिन्
+
+    iast:
+      surface: vādinaḥ
+      lemma: vādin
+
+    pos: noun
+
+    gender: masculine
+    number: plural
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: disputants
+
+  - id: LU-022
+    surface: माया
+    lemma: माया
+    dictionary_headword: माया
+
+    iast:
+      surface: māyā
+      lemma: māyā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: māyā
+
+  - id: LU-023
+    surface: शक्ति
+    lemma: शक्ति
+    dictionary_headword: शक्ति
+
+    iast:
+      surface: śakti
+      lemma: śakti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: power
+
+  - id: LU-024
+    surface: विलास
+    lemma: विलास
+    dictionary_headword: विलास
+
+    iast:
+      surface: vilāsa
+      lemma: vilāsa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: play
+
+  - id: LU-025
+    surface: कल्पित
+    lemma: कल्पित
+    dictionary_headword: कल्पित
+
+    iast:
+      surface: kalpita
+      lemma: kalpita
+
+    pos: participle
+
+    verbal_root: कल्प्
+
+    participle: past passive participle
+
+    compound:
+      member: true
+
+    gloss: projected
+
+  - id: LU-026
+    surface: महा
+    lemma: महा
+    dictionary_headword: महा
+
+    iast:
+      surface: mahā
+      lemma: mahā
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: great
+
+  - id: LU-027
+    surface: व्यामोह
+    lemma: व्यामोह
+    dictionary_headword: व्यामोह
+
+    iast:
+      surface: vyāmoha
+      lemma: vyāmoha
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: delusion
+
+  - id: LU-028
+    surface: संहारिणे
+    lemma: संहारिन्
+    dictionary_headword: संहारिन्
+
+    iast:
+      surface: saṃhāriṇe
+      lemma: saṃhārin
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: to the destroyer
+
+  - id: LU-029
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-030
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-031
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-032
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-033
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: the body
+
+  - lexical_unit: LU-002
+    meaning: the vital breath
+
+  - lexical_unit: LU-003
+    meaning: also
+
+  - lexical_unit: LU-004
+    meaning: the sense organs
+
+  - lexical_unit: LU-005
+    meaning: also
+
+  - lexical_unit: LU-006
+    meaning: changing
+
+  - lexical_unit: LU-007
+    meaning: the intellect
+
+  - lexical_unit: LU-008
+    meaning: and
+
+  - lexical_unit: LU-009
+    meaning: the void
+
+  - lexical_unit: LU-010
+    meaning: consider
+
+  - lexical_unit: LU-011
+    meaning: women
+
+  - lexical_unit: LU-012
+    meaning: children
+
+  - lexical_unit: LU-013
+    meaning: the blind
+
+  - lexical_unit: LU-014
+    meaning: the dull-witted
+
+  - lexical_unit: LU-015
+    meaning: resembling
+
+  - lexical_unit: LU-016
+    meaning: indeed
+
+  - lexical_unit: LU-017
+    meaning: I
+
+  - lexical_unit: LU-018
+    meaning: thus
+
+  - lexical_unit: LU-019
+    meaning: deluded
+
+  - lexical_unit: LU-020
+    meaning: greatly
+
+  - lexical_unit: LU-021
+    meaning: disputants
+
+  - lexical_unit: LU-022
+    meaning: māyā
+
+  - lexical_unit: LU-023
+    meaning: power
+
+  - lexical_unit: LU-024
+    meaning: play
+
+  - lexical_unit: LU-025
+    meaning: projected
+
+  - lexical_unit: LU-026
+    meaning: great
+
+  - lexical_unit: LU-027
+    meaning: delusion
+
+  - lexical_unit: LU-028
+    meaning: to the destroyer
+
+  - lexical_unit: LU-029
+    meaning: unto Him
+
+  - lexical_unit: LU-030
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-031
+    meaning: salutation
+
+  - lexical_unit: LU-032
+    meaning: this
+
+  - lexical_unit: LU-033
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Some identify the Self with the body, others with the vital breath,
+    the senses, the ever-changing intellect, or even with the void.
+    Such disputants, greatly deluded and resembling women, children,
+    the blind, and the dull-witted, remain confused by the notion
+    "I am this." To Him who destroys the great delusion projected
+    through the playful power of māyā, to Śrī Gurumūrti, to
+    Śrī Dakṣiṇāmūrti, this salutation is offered.

@@ -1,0 +1,23 @@
+{
+  "name": "dakshinamurti-stotram",
+  "version": "1.0.0",
+  "description": "Śrī Dakṣiṇāmūrti Stotram — Sanskrit text, transliteration, word-by-word analysis, and English translation. Built with Eleventy.",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "js-yaml": "^5.2.1",
+    "markdown-it": "^14.3.0",
+    "markdown-it-abbr": "^2.0.0",
+    "markdown-it-attrs": "^5.0.0",
+    "markdown-it-container": "^4.0.0",
+    "markdown-it-footnote": "^4.0.0"
+  }
+}

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Contents
+permalink: /verses/
+---
+<div class="wrap prose">
+  <h1>Contents</h1>
+  <p>The ten verses of the <em>Śrī Dakṣiṇāmūrti Stotram</em>, each with the Devanagari text, IAST transliteration, literary translation, and word-by-word analysis.</p>
+
+  <ul class="verse-list">
+    {% for v in verses %}
+    <li>
+      <a href="/verses/{{ v.verse.id | slugify }}/">
+        <span class="verse-list-number">{{ v.verse.order }}</span>
+        <span class="verse-list-deva">{{ v.source.devanagari | splitLines | first }} …</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

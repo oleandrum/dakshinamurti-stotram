@@ -1,0 +1,667 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-010
+  order: 10
+  display_number: "॥ १० ॥"
+
+source:
+  devanagari: |
+    सर्वात्मत्वमिति स्फुटीकृतमिदं यस्मादमुष्मिन्स्तवे
+    तेनास्य श्रवणात्तदर्थमननाद्ध्यानाच्च सङ्कीर्तनात् ।
+    सर्वात्मत्वमहाविभूतिसहितं स्यादीश्वरत्वं स्वतः
+    सिद्ध्येत्तत्पुनरष्टधा परिणतं चैश्वर्यमव्याहतम् ॥
+
+  iast: |
+    sarvātmatvamiti sphuṭīkṛtamidaṃ yasmādamuṣminstave
+    tenāsya śravaṇāttadarthamananāddhyānācca saṅkīrtanāt |
+    sarvātmatvamahāvibhūtisahitaṃ syādīśvaratvaṃ svataḥ
+    siddhyettatpunaraṣṭadhā pariṇataṃ caiśvaryamavyāhatam ||
+
+lexical_units:
+  - id: LU-001
+    surface: सर्वात्मत्वम्
+    lemma: सर्वात्मत्व
+    dictionary_headword: सर्वात्मत्व
+
+    iast:
+      surface: sarvātmatvam
+      lemma: sarvātmatva
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: the state of being the Self of all
+
+  - id: LU-002
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-003
+    surface: स्फुटीकृतम्
+    lemma: स्फुटीकृत
+    dictionary_headword: स्फुटीकृत
+
+    iast:
+      surface: sphuṭīkṛtam
+      lemma: sphuṭīkṛta
+
+    pos: participle
+
+    verbal_root: कृ
+
+    participle: past passive participle
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: made clear
+
+  - id: LU-004
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-005
+    surface: यस्मात्
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yasmāt
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: because
+
+  - id: LU-006
+    surface: अमुष्मिन्
+    lemma: अदस्
+    dictionary_headword: अदस्
+
+    iast:
+      surface: amuṣmin
+      lemma: adas
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: in this
+
+  - id: LU-007
+    surface: स्तवे
+    lemma: स्तव
+    dictionary_headword: स्तव
+
+    iast:
+      surface: stave
+      lemma: stava
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: hymn
+
+  - id: LU-008
+    surface: तेन
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tena
+      lemma: tad
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: therefore
+
+  - id: LU-009
+    surface: अस्य
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: asya
+      lemma: idam
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: of this
+
+  - id: LU-010
+    surface: श्रवणात्
+    lemma: श्रवण
+    dictionary_headword: श्रवण
+
+    iast:
+      surface: śravaṇāt
+      lemma: śravaṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from hearing
+
+  - id: LU-011
+    surface: तदर्थ
+    lemma: तदर्थ
+    dictionary_headword: तदर्थ
+
+    iast:
+      surface: tadartha
+      lemma: tadartha
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: its meaning
+
+  - id: LU-012
+    surface: मननात्
+    lemma: मनन
+    dictionary_headword: मनन
+
+    iast:
+      surface: mananāt
+      lemma: manana
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from reflection
+
+  - id: LU-013
+    surface: ध्यानात्
+    lemma: ध्यान
+    dictionary_headword: ध्यान
+
+    iast:
+      surface: dhyānāt
+      lemma: dhyāna
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from meditation
+
+  - id: LU-014
+    surface: च
+    lemma: च
+    dictionary_headword: च
+
+    iast:
+      surface: ca
+      lemma: ca
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: and
+
+  - id: LU-015
+    surface: सङ्कीर्तनात्
+    lemma: सङ्कीर्तन
+    dictionary_headword: सङ्कीर्तन
+
+    iast:
+      surface: saṅkīrtanāt
+      lemma: saṅkīrtana
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from recitation
+
+  - id: LU-016
+    surface: सर्वात्मत्व
+    lemma: सर्वात्मत्व
+    dictionary_headword: सर्वात्मत्व
+
+    iast:
+      surface: sarvātmatva
+      lemma: sarvātmatva
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: the state of being the Self of all
+
+  - id: LU-017
+    surface: महाविभूतिसहितम्
+    lemma: महाविभूतिसहित
+    dictionary_headword: महाविभूतिसहित
+
+    iast:
+      surface: mahāvibhūtisahitam
+      lemma: mahāvibhūtisahita
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: endowed with great glory
+
+  - id: LU-018
+    surface: स्यात्
+    lemma: अस्
+    dictionary_headword: अस्
+
+    iast:
+      surface: syāt
+      lemma: as
+
+    pos: verb
+
+    verbal_root: अस्
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: becomes
+
+  - id: LU-019
+    surface: ईश्वरत्वम्
+    lemma: ईश्वरत्व
+    dictionary_headword: ईश्वरत्व
+
+    iast:
+      surface: īśvaratvam
+      lemma: īśvaratva
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: lordship
+
+  - id: LU-020
+    surface: स्वतः
+    lemma: स्वतस्
+    dictionary_headword: स्वतस्
+
+    iast:
+      surface: svataḥ
+      lemma: svatas
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: of itself
+
+  - id: LU-021
+    surface: सिद्ध्येत्
+    lemma: सिध्
+    dictionary_headword: सिध्
+
+    iast:
+      surface: siddhyet
+      lemma: sidh
+
+    pos: verb
+
+    verbal_root: सिध्
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: is attained
+
+  - id: LU-022
+    surface: तत्
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tat
+      lemma: tad
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: that
+
+  - id: LU-023
+    surface: पुनः
+    lemma: पुनः
+    dictionary_headword: पुनः
+
+    iast:
+      surface: punaḥ
+      lemma: punaḥ
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: further
+
+  - id: LU-024
+    surface: अष्टधा
+    lemma: अष्टधा
+    dictionary_headword: अष्टधा
+
+    iast:
+      surface: aṣṭadhā
+      lemma: aṣṭadhā
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: eightfold
+
+  - id: LU-025
+    surface: परिणतम्
+    lemma: परिणत
+    dictionary_headword: परिणत
+
+    iast:
+      surface: pariṇatam
+      lemma: pariṇata
+
+    pos: participle
+
+    verbal_root: नम्
+
+    participle: past passive participle
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: developed into
+
+  - id: LU-026
+    surface: च
+    lemma: च
+    dictionary_headword: च
+
+    iast:
+      surface: ca
+      lemma: ca
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: and
+
+  - id: LU-027
+    surface: ऐश्वर्यम्
+    lemma: ऐश्वर्य
+    dictionary_headword: ऐश्वर्य
+
+    iast:
+      surface: aiśvaryam
+      lemma: aiśvarya
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: sovereignty
+
+  - id: LU-028
+    surface: अव्याहतम्
+    lemma: अव्याहत
+    dictionary_headword: अव्याहत
+
+    iast:
+      surface: avyāhatam
+      lemma: avyāhata
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: unobstructed
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: the state of being the Self of all
+
+  - lexical_unit: LU-002
+    meaning: thus
+
+  - lexical_unit: LU-003
+    meaning: made clear
+
+  - lexical_unit: LU-004
+    meaning: this
+
+  - lexical_unit: LU-005
+    meaning: because
+
+  - lexical_unit: LU-006
+    meaning: in this
+
+  - lexical_unit: LU-007
+    meaning: hymn
+
+  - lexical_unit: LU-008
+    meaning: therefore
+
+  - lexical_unit: LU-009
+    meaning: of this
+
+  - lexical_unit: LU-010
+    meaning: from hearing
+
+  - lexical_unit: LU-011
+    meaning: its meaning
+
+  - lexical_unit: LU-012
+    meaning: from reflection
+
+  - lexical_unit: LU-013
+    meaning: from meditation
+
+  - lexical_unit: LU-014
+    meaning: and
+
+  - lexical_unit: LU-015
+    meaning: from recitation
+
+  - lexical_unit: LU-016
+    meaning: the state of being the Self of all
+
+  - lexical_unit: LU-017
+    meaning: endowed with great glory
+
+  - lexical_unit: LU-018
+    meaning: becomes
+
+  - lexical_unit: LU-019
+    meaning: lordship
+
+  - lexical_unit: LU-020
+    meaning: of itself
+
+  - lexical_unit: LU-021
+    meaning: is attained
+
+  - lexical_unit: LU-022
+    meaning: that
+
+  - lexical_unit: LU-023
+    meaning: further
+
+  - lexical_unit: LU-024
+    meaning: eightfold
+
+  - lexical_unit: LU-025
+    meaning: developed into
+
+  - lexical_unit: LU-026
+    meaning: and
+
+  - lexical_unit: LU-027
+    meaning: sovereignty
+
+  - lexical_unit: LU-028
+    meaning: unobstructed
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Since this hymn clearly reveals the truth that the Self is the Self
+    of all, by hearing it, reflecting upon its meaning, meditating upon
+    it, and reciting it, one naturally attains the realization of
+    universal Selfhood together with the majesty of the Supreme Lord.
+    Thereby arises unobstructed sovereignty, unfolding as the eightfold
+    divine powers.

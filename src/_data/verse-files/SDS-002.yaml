@@ -1,0 +1,683 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-002
+  order: 2
+  display_number: "॥ २ ॥"
+
+source:
+  devanagari: |
+    बीजस्यान्तरिवाङ्कुरो जगदिदं प्राङ्निर्विकल्पं पुनः
+    मायाकल्पितदेशकालकलनावैचित्र्यचित्रीकृतम् ।
+    मायावीव विजृम्भयत्यपि महायोगीव यः स्वेच्छया
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    bījasyāntarivāṅkuro jagadidaṃ prāṅnirvikalpaṃ punaḥ
+    māyākalpitadeśakālakalanāvaicitryacitrīkṛtam |
+    māyāvīva vijṛmbhayatyapi mahāyogīva yaḥ svecchayā
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: बीजस्य
+    lemma: बीज
+    dictionary_headword: बीज
+
+    iast:
+      surface: bījasya
+      lemma: bīja
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: seed
+
+  - id: LU-002
+    surface: अन्तर्
+    lemma: अन्तर्
+    dictionary_headword: अन्तर्
+
+    iast:
+      surface: antar
+      lemma: antar
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: within
+
+  - id: LU-003
+    surface: इव
+    lemma: इव
+    dictionary_headword: इव
+
+    iast:
+      surface: iva
+      lemma: iva
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: like
+
+  - id: LU-004
+    surface: अङ्कुरः
+    lemma: अङ्कुर
+    dictionary_headword: अङ्कुर
+
+    iast:
+      surface: aṅkuraḥ
+      lemma: aṅkura
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: sprout
+
+  - id: LU-005
+    surface: जगत्
+    lemma: जगत्
+    dictionary_headword: जगत्
+
+    iast:
+      surface: jagat
+      lemma: jagat
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: universe
+
+  - id: LU-006
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-007
+    surface: प्राक्
+    lemma: प्राक्
+    dictionary_headword: प्राक्
+
+    iast:
+      surface: prāk
+      lemma: prāk
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: before
+
+  - id: LU-008
+    surface: निर्विकल्पम्
+    lemma: निर्विकल्प
+    dictionary_headword: निर्विकल्प
+
+    iast:
+      surface: nirvikalpam
+      lemma: nirvikalpa
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: undifferentiated
+
+  - id: LU-009
+    surface: पुनः
+    lemma: पुनः
+    dictionary_headword: पुनः
+
+    iast:
+      surface: punaḥ
+      lemma: punaḥ
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: again
+
+  - id: LU-010
+    surface: माया
+    lemma: माया
+    dictionary_headword: माया
+
+    iast:
+      surface: māyā
+      lemma: māyā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: true
+
+    gloss: māyā
+
+  - id: LU-011
+    surface: कल्पित
+    lemma: कल्पित
+    dictionary_headword: कल्पित
+
+    iast:
+      surface: kalpita
+      lemma: kalpita
+
+    pos: participle
+
+    verbal_root: कल्प्
+
+    participle: past passive participle
+
+    compound:
+      member: true
+
+    gloss: imagined
+
+  - id: LU-012
+    surface: देश
+    lemma: देश
+    dictionary_headword: देश
+
+    iast:
+      surface: deśa
+      lemma: deśa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: space
+
+  - id: LU-013
+    surface: काल
+    lemma: काल
+    dictionary_headword: काल
+
+    iast:
+      surface: kāla
+      lemma: kāla
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: time
+
+  - id: LU-014
+    surface: कलना
+    lemma: कलना
+    dictionary_headword: कलना
+
+    iast:
+      surface: kalanā
+      lemma: kalanā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: differentiation
+
+  - id: LU-015
+    surface: वैचित्र्य
+    lemma: वैचित्र्य
+    dictionary_headword: वैचित्र्य
+
+    iast:
+      surface: vaicitrya
+      lemma: vaicitrya
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: diversity
+
+  - id: LU-016
+    surface: चित्रीकृतम्
+    lemma: चित्रीकृत
+    dictionary_headword: चित्रीकृत
+
+    iast:
+      surface: citrīkṛtam
+      lemma: citrīkṛta
+
+    pos: participle
+
+    verbal_root: कृ
+
+    participle: past passive participle
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: made variegated
+
+  - id: LU-017
+    surface: मायावी
+    lemma: मायाविन्
+    dictionary_headword: मायाविन्
+
+    iast:
+      surface: māyāvī
+      lemma: māyāvin
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: magician
+
+  - id: LU-018
+    surface: इव
+    lemma: इव
+    dictionary_headword: इव
+
+    iast:
+      surface: iva
+      lemma: iva
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: like
+
+  - id: LU-019
+    surface: विजृम्भयति
+    lemma: विजृम्भय्
+    dictionary_headword: विजृम्भय्
+
+    iast:
+      surface: vijṛmbhayati
+      lemma: vijṛmbhay
+
+    pos: verb
+
+    verbal_root: जृम्भ्
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: manifests
+
+  - id: LU-020
+    surface: अपि
+    lemma: अपि
+    dictionary_headword: अपि
+
+    iast:
+      surface: api
+      lemma: api
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-021
+    surface: महायोगी
+    lemma: महायोगिन्
+    dictionary_headword: महायोगिन्
+
+    iast:
+      surface: mahāyogī
+      lemma: mahāyogin
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: great yogi
+
+  - id: LU-022
+    surface: इव
+    lemma: इव
+    dictionary_headword: इव
+
+    iast:
+      surface: iva
+      lemma: iva
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: like
+
+  - id: LU-023
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-024
+    surface: स्वेच्छया
+    lemma: स्वेच्छा
+    dictionary_headword: स्वेच्छा
+
+    iast:
+      surface: svecchayā
+      lemma: svecchā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: by one's own will
+
+  - id: LU-025
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-026
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-027
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-028
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-029
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: of the seed
+
+  - lexical_unit: LU-002
+    meaning: within
+
+  - lexical_unit: LU-003
+    meaning: like
+
+  - lexical_unit: LU-004
+    meaning: a sprout
+
+  - lexical_unit: LU-005
+    meaning: the universe
+
+  - lexical_unit: LU-006
+    meaning: this
+
+  - lexical_unit: LU-007
+    meaning: before
+
+  - lexical_unit: LU-008
+    meaning: undifferentiated
+
+  - lexical_unit: LU-009
+    meaning: again
+
+  - lexical_unit: LU-010
+    meaning: through māyā
+
+  - lexical_unit: LU-011
+    meaning: imagined
+
+  - lexical_unit: LU-012
+    meaning: space
+
+  - lexical_unit: LU-013
+    meaning: time
+
+  - lexical_unit: LU-014
+    meaning: differentiation
+
+  - lexical_unit: LU-015
+    meaning: diversity
+
+  - lexical_unit: LU-016
+    meaning: made variegated
+
+  - lexical_unit: LU-017
+    meaning: a magician
+
+  - lexical_unit: LU-018
+    meaning: like
+
+  - lexical_unit: LU-019
+    meaning: manifests
+
+  - lexical_unit: LU-020
+    meaning: indeed
+
+  - lexical_unit: LU-021
+    meaning: a great yogi
+
+  - lexical_unit: LU-022
+    meaning: like
+
+  - lexical_unit: LU-023
+    meaning: who
+
+  - lexical_unit: LU-024
+    meaning: by one's own will
+
+  - lexical_unit: LU-025
+    meaning: unto Him
+
+  - lexical_unit: LU-026
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-027
+    meaning: salutation
+
+  - lexical_unit: LU-028
+    meaning: this
+
+  - lexical_unit: LU-029
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Just as a sprout exists unmanifest within a seed, so too this
+    universe existed before creation in an undifferentiated state.
+    Thereafter, through the imagined distinctions of space and time
+    projected by māyā, it appears as a manifold creation. Like a
+    magician, or like a great yogi, He manifests it solely by His own
+    free will. To that Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this
+    salutation is offered.

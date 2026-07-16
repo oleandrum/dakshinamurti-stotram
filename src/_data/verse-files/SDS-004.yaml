@@ -1,0 +1,735 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-004
+  order: 4
+  display_number: "॥ ४ ॥"
+
+source:
+  devanagari: |
+    नानाच्छिद्रघटोदरस्थितमहादीपप्रभाभास्वरं
+    ज्ञानं यस्य तु चक्षुरादिकरणद्वारा बहिः स्पन्दते ।
+    जानामीति तमेव भान्तमनुभात्येतत्समस्तं जगत्
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    nānācchidraghaṭodarasthitamahādīpaprabhābhāsvaraṃ
+    jñānaṃ yasya tu cakṣurādikaraṇadvārā bahiḥ spandate |
+    jānāmīti tameva bhāntam anubhāty etat samastaṃ jagat
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: नाना
+    lemma: नाना
+    dictionary_headword: नाना
+
+    iast:
+      surface: nānā
+      lemma: nānā
+
+    pos: indeclinable
+
+    compound:
+      member: true
+
+    gloss: many
+
+  - id: LU-002
+    surface: छिद्र
+    lemma: छिद्र
+    dictionary_headword: छिद्र
+
+    iast:
+      surface: chidra
+      lemma: chidra
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: aperture
+
+  - id: LU-003
+    surface: घट
+    lemma: घट
+    dictionary_headword: घट
+
+    iast:
+      surface: ghaṭa
+      lemma: ghaṭa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: pot
+
+  - id: LU-004
+    surface: उदर
+    lemma: उदर
+    dictionary_headword: उदर
+
+    iast:
+      surface: udara
+      lemma: udara
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: interior
+
+  - id: LU-005
+    surface: स्थित
+    lemma: स्थित
+    dictionary_headword: स्थित
+
+    iast:
+      surface: sthita
+      lemma: sthita
+
+    pos: participle
+
+    verbal_root: स्था
+
+    participle: past passive participle
+
+    compound:
+      member: true
+
+    gloss: situated
+
+  - id: LU-006
+    surface: महादीप
+    lemma: महादीप
+    dictionary_headword: महादीप
+
+    iast:
+      surface: mahādīpa
+      lemma: mahādīpa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: great lamp
+
+  - id: LU-007
+    surface: प्रभा
+    lemma: प्रभा
+    dictionary_headword: प्रभा
+
+    iast:
+      surface: prabhā
+      lemma: prabhā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: light
+
+  - id: LU-008
+    surface: भास्वरम्
+    lemma: भास्वर
+    dictionary_headword: भास्वर
+
+    iast:
+      surface: bhāsvaram
+      lemma: bhāsvara
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: shining
+
+  - id: LU-009
+    surface: ज्ञानम्
+    lemma: ज्ञान
+    dictionary_headword: ज्ञान
+
+    iast:
+      surface: jñānam
+      lemma: jñāna
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: consciousness
+
+  - id: LU-010
+    surface: यस्य
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yasya
+      lemma: yad
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: whose
+
+  - id: LU-011
+    surface: तु
+    lemma: तु
+    dictionary_headword: तु
+
+    iast:
+      surface: tu
+      lemma: tu
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-012
+    surface: चक्षुः
+    lemma: चक्षुस्
+    dictionary_headword: चक्षुस्
+
+    iast:
+      surface: cakṣuḥ
+      lemma: cakṣus
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: eye
+
+  - id: LU-013
+    surface: आदि
+    lemma: आदि
+    dictionary_headword: आदि
+
+    iast:
+      surface: ādi
+      lemma: ādi
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: and the rest
+
+  - id: LU-014
+    surface: करण
+    lemma: करण
+    dictionary_headword: करण
+
+    iast:
+      surface: karaṇa
+      lemma: karaṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: sense organ
+
+  - id: LU-015
+    surface: द्वारा
+    lemma: द्वारा
+    dictionary_headword: द्वारा
+
+    iast:
+      surface: dvārā
+      lemma: dvārā
+
+    pos: indeclinable
+
+    compound:
+      member: true
+
+    gloss: through
+
+  - id: LU-016
+    surface: बहिः
+    lemma: बहिस्
+    dictionary_headword: बहिस्
+
+    iast:
+      surface: bahiḥ
+      lemma: bahis
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: outward
+
+  - id: LU-017
+    surface: स्पन्दते
+    lemma: स्पन्द्
+    dictionary_headword: स्पन्द्
+
+    iast:
+      surface: spandate
+      lemma: spand
+
+    pos: verb
+
+    verbal_root: स्पन्द्
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: ātmanepada
+
+    compound:
+      member: false
+
+    gloss: vibrates
+
+  - id: LU-018
+    surface: जानामि
+    lemma: ज्ञा
+    dictionary_headword: ज्ञा
+
+    iast:
+      surface: jānāmi
+      lemma: jñā
+
+    pos: verb
+
+    verbal_root: ज्ञा
+
+    lakara: laṭ
+    person: first
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: I know
+
+  - id: LU-019
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-020
+    surface: तम्
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tam
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: Him
+
+  - id: LU-021
+    surface: एव
+    lemma: एव
+    dictionary_headword: एव
+
+    iast:
+      surface: eva
+      lemma: eva
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: alone
+
+  - id: LU-022
+    surface: भान्तम्
+    lemma: भान्त
+    dictionary_headword: भान्त
+
+    iast:
+      surface: bhāntam
+      lemma: bhānta
+
+    pos: participle
+
+    verbal_root: भा
+
+    participle: present active participle
+
+    gender: masculine
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: shining
+
+  - id: LU-023
+    surface: अनुभाति
+    lemma: अनुभा
+    dictionary_headword: अनुभा
+
+    iast:
+      surface: anubhāti
+      lemma: anubhā
+
+    pos: verb
+
+    verbal_root: भा
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: shines after
+
+  - id: LU-024
+    surface: एतत्
+    lemma: एतद्
+    dictionary_headword: एतद्
+
+    iast:
+      surface: etat
+      lemma: etad
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-025
+    surface: समस्तम्
+    lemma: समस्त
+    dictionary_headword: समस्त
+
+    iast:
+      surface: samastam
+      lemma: samasta
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: entire
+
+  - id: LU-026
+    surface: जगत्
+    lemma: जगत्
+    dictionary_headword: जगत्
+
+    iast:
+      surface: jagat
+      lemma: jagat
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: universe
+
+  - id: LU-027
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-028
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-029
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-030
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-031
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: many
+
+  - lexical_unit: LU-002
+    meaning: apertures
+
+  - lexical_unit: LU-003
+    meaning: a pot
+
+  - lexical_unit: LU-004
+    meaning: the interior
+
+  - lexical_unit: LU-005
+    meaning: situated
+
+  - lexical_unit: LU-006
+    meaning: a great lamp
+
+  - lexical_unit: LU-007
+    meaning: light
+
+  - lexical_unit: LU-008
+    meaning: shining
+
+  - lexical_unit: LU-009
+    meaning: consciousness
+
+  - lexical_unit: LU-010
+    meaning: whose
+
+  - lexical_unit: LU-011
+    meaning: indeed
+
+  - lexical_unit: LU-012
+    meaning: the eye
+
+  - lexical_unit: LU-013
+    meaning: and the rest
+
+  - lexical_unit: LU-014
+    meaning: sense organs
+
+  - lexical_unit: LU-015
+    meaning: through
+
+  - lexical_unit: LU-016
+    meaning: outward
+
+  - lexical_unit: LU-017
+    meaning: vibrates
+
+  - lexical_unit: LU-018
+    meaning: I know
+
+  - lexical_unit: LU-019
+    meaning: thus
+
+  - lexical_unit: LU-020
+    meaning: Him
+
+  - lexical_unit: LU-021
+    meaning: alone
+
+  - lexical_unit: LU-022
+    meaning: shining
+
+  - lexical_unit: LU-023
+    meaning: shines after
+
+  - lexical_unit: LU-024
+    meaning: this
+
+  - lexical_unit: LU-025
+    meaning: entire
+
+  - lexical_unit: LU-026
+    meaning: universe
+
+  - lexical_unit: LU-027
+    meaning: unto Him
+
+  - lexical_unit: LU-028
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-029
+    meaning: salutation
+
+  - lexical_unit: LU-030
+    meaning: this
+
+  - lexical_unit: LU-031
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Just as the radiant light of a great lamp, shining from within a
+    pot through its many apertures, streams outward, so too the light
+    of Consciousness manifests itself through the gateways of the eye
+    and the other sense organs. It is by His light alone that the
+    thought "I know" arises, and by His shining this entire universe
+    is illumined. To that Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this
+    salutation is offered.

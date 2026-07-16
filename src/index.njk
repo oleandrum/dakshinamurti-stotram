@@ -1,0 +1,79 @@
+---
+layout: layouts/base.njk
+title: ""
+---
+<div class="wrap home">
+
+  <section class="hero">
+    <div class="hero-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 7.4c-1.7-1.3-3.8-1.8-5.7-1.8-.6 0-1.2 0-1.8.1v11.8c.6-.1 1.2-.1 1.8-.1 1.9 0 4 .5 5.7 1.8 1.7-1.3 3.8-1.8 5.7-1.8.6 0 1.2 0 1.8.1V5.7c-.6-.1-1.2-.1-1.8-.1-1.9 0-4 .5-5.7 1.8Z" />
+        <path d="M12 7.4v11.8" />
+      </svg>
+    </div>
+    <h1 class="hero-title">
+      <span class="hero-title-main">Śrī Dakṣiṇāmūrti Stotram</span>
+      <span class="hero-title-accent">—</span>
+    </h1>
+    <h2 class="hero-deva" lang="sa">श्रीदक्षिणामूर्तिस्तोत्रम्</h2>
+    <p class="hero-tagline">Sanskrit text · transliteration · annotated English translation</p>
+  </section>
+
+  <section class="hero-intro">
+    <p>Dakṣiṇāmūrti — <em>the form facing south</em> — is Śiva as the primordial teacher: a youthful ascetic seated beneath a banyan tree, one hand raised in the gesture of knowledge, while disciples far older than himself sit at his feet. In this single image the tradition condenses one of its boldest claims — that the deepest truth is not transmitted by argument or scripture, but recognized in stillness. The young guru teaches through silence, and the doubts of the aged students fall away.</p>
+
+    <p>The <em>Śrī Dakṣiṇāmūrti Stotram</em>, traditionally attributed to Ādi Śaṅkarācārya, distills the whole of Advaita Vedānta into ten tightly wrought verses. The world appears like a city reflected in a mirror — arising within the Self, yet seeming external, as in a dream; upon awakening, only the one non-dual Self remains. Each verse closes with the same refrain of homage, so that the hymn is at once devotional poetry and a complete philosophical treatise in miniature.</p>
+
+    <p>This edition presents the full Sanskrit text in Devanagari with IAST transliteration, a literary English translation, and a word-by-word grammatical apparatus with an automatically compiled glossary — free to read online, or to download as PDF and EPUB.</p>
+  </section>
+
+  {% set first = verses | first %}
+  <section class="home-verse">
+    <p class="home-verse-label">Opening verse</p>
+
+    <div class="verse-source">
+      <div class="verse-source-deva">
+        {% for line in first.source.devanagari | splitLines %}
+        <span>{{ line }}</span>
+        {% endfor %}
+      </div>
+      <div class="verse-source-iast">
+        {% for line in first.source.iast | splitLines %}
+        <span>{{ line }}</span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <p class="home-verse-translation">{{ first.literary_translation.text }}</p>
+
+    <div class="home-actions">
+      <a class="btn btn-primary" href="/verses/{{ first.verse.id | slugify }}/">Begin reading
+        <svg viewBox="0 0 24 24">
+          <path d="M9 6l6 6-6 6" />
+        </svg>
+      </a>
+      <a class="btn" href="/verses/">Contents</a>
+    </div>
+  </section>
+
+  <section class="home-cards">
+    <a class="home-card" href="/about/">
+      <h2>About the text</h2>
+      <p>Śaṅkarācārya, Dakṣiṇāmūrti, and the iconography of the silent teacher.</p>
+    </a>
+    <a class="home-card" href="/glossary/">
+      <h2>Word by word</h2>
+      <p>Every verse parsed unit by unit, with grammar tags and a cross-linked glossary.</p>
+    </a>
+    <div class="home-card">
+      <h2>Downloads</h2>
+      <p>For offline reading, or to study the source.</p>
+      <div class="home-card-links">
+        <a class="download-btn" href="/downloads/{{ site.slug }}.pdf" download>PDF</a>
+        <a class="download-btn" href="/downloads/{{ site.slug }}.epub" download>EPUB</a>
+        <a class="download-btn" href="{{ site.repo }}" target="_blank" rel="noopener">Source</a>
+      </div>
+    </div>
+  </section>
+
+</div>

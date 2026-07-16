@@ -1,0 +1,735 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-008
+  order: 8
+  display_number: "॥ ८ ॥"
+
+source:
+  devanagari: |
+    विश्वं पश्यति कार्यकारणतया स्वस्वामिसम्बन्धतः
+    शिष्याचार्यतया तथैव पितृपुत्राद्यात्मना भेदतः ।
+    स्वप्ने जाग्रति वा य एष पुरुषो मायापरिभ्रामितः
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    viśvaṃ paśyati kāryakāraṇatayā svasvāmisambandhataḥ
+    śiṣyācāryatayā tathaiva pitṛputrādyātmanā bhedataḥ |
+    svapne jāgrati vā ya eṣa puruṣo māyāparibhrāmitaḥ
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: विश्वम्
+    lemma: विश्व
+    dictionary_headword: विश्व
+
+    iast:
+      surface: viśvam
+      lemma: viśva
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: the universe
+
+  - id: LU-002
+    surface: पश्यति
+    lemma: दृश्
+    dictionary_headword: दृश्
+
+    iast:
+      surface: paśyati
+      lemma: dṛś
+
+    pos: verb
+
+    verbal_root: दृश्
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: sees
+
+  - id: LU-003
+    surface: कार्य
+    lemma: कार्य
+    dictionary_headword: कार्य
+
+    iast:
+      surface: kārya
+      lemma: kārya
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: effect
+
+  - id: LU-004
+    surface: कारण
+    lemma: कारण
+    dictionary_headword: कारण
+
+    iast:
+      surface: kāraṇa
+      lemma: kāraṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: cause
+
+  - id: LU-005
+    surface: तया
+    lemma: ता
+    dictionary_headword: तद्
+
+    iast:
+      surface: tayā
+      lemma: tad
+
+    pos: pronoun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: in the manner of
+
+  - id: LU-006
+    surface: स्व
+    lemma: स्व
+    dictionary_headword: स्व
+
+    iast:
+      surface: sva
+      lemma: sva
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: one's own
+
+  - id: LU-007
+    surface: स्वामि
+    lemma: स्वामिन्
+    dictionary_headword: स्वामिन्
+
+    iast:
+      surface: svāmi
+      lemma: svāmin
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: master
+
+  - id: LU-008
+    surface: सम्बन्धतः
+    lemma: सम्बन्ध
+    dictionary_headword: सम्बन्ध
+
+    iast:
+      surface: sambandhataḥ
+      lemma: sambandha
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: through relationship
+
+  - id: LU-009
+    surface: शिष्य
+    lemma: शिष्य
+    dictionary_headword: शिष्य
+
+    iast:
+      surface: śiṣya
+      lemma: śiṣya
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: disciple
+
+  - id: LU-010
+    surface: आचार्य
+    lemma: आचार्य
+    dictionary_headword: आचार्य
+
+    iast:
+      surface: ācārya
+      lemma: ācārya
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: teacher
+
+  - id: LU-011
+    surface: तया
+    lemma: ता
+    dictionary_headword: तद्
+
+    iast:
+      surface: tayā
+      lemma: tad
+
+    pos: pronoun
+
+    gender: feminine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: in the manner of
+
+  - id: LU-012
+    surface: तथा
+    lemma: तथा
+    dictionary_headword: तथा
+
+    iast:
+      surface: tathā
+      lemma: tathā
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: likewise
+
+  - id: LU-013
+    surface: एव
+    lemma: एव
+    dictionary_headword: एव
+
+    iast:
+      surface: eva
+      lemma: eva
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-014
+    surface: पितृ
+    lemma: पितृ
+    dictionary_headword: पितृ
+
+    iast:
+      surface: pitṛ
+      lemma: pitṛ
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: father
+
+  - id: LU-015
+    surface: पुत्र
+    lemma: पुत्र
+    dictionary_headword: पुत्र
+
+    iast:
+      surface: putra
+      lemma: putra
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: son
+
+  - id: LU-016
+    surface: आदि
+    lemma: आदि
+    dictionary_headword: आदि
+
+    iast:
+      surface: ādi
+      lemma: ādi
+
+    pos: adjective
+
+    compound:
+      member: true
+
+    gloss: and so on
+
+  - id: LU-017
+    surface: आत्मना
+    lemma: आत्मन्
+    dictionary_headword: आत्मन्
+
+    iast:
+      surface: ātmanā
+      lemma: ātman
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: instrumental
+
+    compound:
+      member: false
+
+    gloss: in the form of
+
+  - id: LU-018
+    surface: भेदतः
+    lemma: भेद
+    dictionary_headword: भेद
+
+    iast:
+      surface: bhedataḥ
+      lemma: bheda
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: through difference
+
+  - id: LU-019
+    surface: स्वप्ने
+    lemma: स्वप्न
+    dictionary_headword: स्वप्न
+
+    iast:
+      surface: svapne
+      lemma: svapna
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: in dream
+
+  - id: LU-020
+    surface: जाग्रति
+    lemma: जाग्रत्
+    dictionary_headword: जाग्रत्
+
+    iast:
+      surface: jāgrati
+      lemma: jāgrat
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: locative
+
+    compound:
+      member: false
+
+    gloss: in the waking state
+
+  - id: LU-021
+    surface: वा
+    lemma: वा
+    dictionary_headword: वा
+
+    iast:
+      surface: vā
+      lemma: vā
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: or
+
+  - id: LU-022
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-023
+    surface: एषः
+    lemma: एतद्
+    dictionary_headword: एतद्
+
+    iast:
+      surface: eṣaḥ
+      lemma: etad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-024
+    surface: पुरुषः
+    lemma: पुरुष
+    dictionary_headword: पुरुष
+
+    iast:
+      surface: puruṣaḥ
+      lemma: puruṣa
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: person
+
+  - id: LU-025
+    surface: माया
+    lemma: माया
+    dictionary_headword: माया
+
+    iast:
+      surface: māyā
+      lemma: māyā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: māyā
+
+  - id: LU-026
+    surface: परिभ्रामितः
+    lemma: परिभ्रामित
+    dictionary_headword: परिभ्रामित
+
+    iast:
+      surface: paribhrāmitaḥ
+      lemma: paribhrāmita
+
+    pos: participle
+
+    verbal_root: भ्रम्
+
+    participle: past passive participle
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: deluded
+
+  - id: LU-027
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-028
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-029
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-030
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-031
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: the universe
+
+  - lexical_unit: LU-002
+    meaning: sees
+
+  - lexical_unit: LU-003
+    meaning: effect
+
+  - lexical_unit: LU-004
+    meaning: cause
+
+  - lexical_unit: LU-005
+    meaning: in the manner of
+
+  - lexical_unit: LU-006
+    meaning: one's own
+
+  - lexical_unit: LU-007
+    meaning: master
+
+  - lexical_unit: LU-008
+    meaning: through relationship
+
+  - lexical_unit: LU-009
+    meaning: disciple
+
+  - lexical_unit: LU-010
+    meaning: teacher
+
+  - lexical_unit: LU-011
+    meaning: in the manner of
+
+  - lexical_unit: LU-012
+    meaning: likewise
+
+  - lexical_unit: LU-013
+    meaning: indeed
+
+  - lexical_unit: LU-014
+    meaning: father
+
+  - lexical_unit: LU-015
+    meaning: son
+
+  - lexical_unit: LU-016
+    meaning: and so on
+
+  - lexical_unit: LU-017
+    meaning: in the form of
+
+  - lexical_unit: LU-018
+    meaning: through difference
+
+  - lexical_unit: LU-019
+    meaning: in dream
+
+  - lexical_unit: LU-020
+    meaning: in the waking state
+
+  - lexical_unit: LU-021
+    meaning: or
+
+  - lexical_unit: LU-022
+    meaning: who
+
+  - lexical_unit: LU-023
+    meaning: this
+
+  - lexical_unit: LU-024
+    meaning: person
+
+  - lexical_unit: LU-025
+    meaning: māyā
+
+  - lexical_unit: LU-026
+    meaning: deluded
+
+  - lexical_unit: LU-027
+    meaning: unto Him
+
+  - lexical_unit: LU-028
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-029
+    meaning: salutation
+
+  - lexical_unit: LU-030
+    meaning: this
+
+  - lexical_unit: LU-031
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Deluded by māyā, this person perceives the universe in terms of
+    duality: as cause and effect, owner and possessed, teacher and
+    disciple, father and son, and countless other distinctions. Whether
+    in dream or in the waking state, these apparent differences persist
+    only through ignorance. To Him who is the Reality underlying all
+    such distinctions, to Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this
+    salutation is offered.

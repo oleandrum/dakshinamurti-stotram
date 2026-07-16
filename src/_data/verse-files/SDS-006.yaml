@@ -1,0 +1,607 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-006
+  order: 6
+  display_number: "॥ ६ ॥"
+
+source:
+  devanagari: |
+    राहुग्रस्तदिवाकरेन्दुसदृशो मायासमाच्छादनात्
+    सन्मात्रः करणोपसंहरणतो योऽभूत्सुषुप्तः पुमान् ।
+    प्रागस्वाप्समिति प्रबोधसमये यः प्रत्यभिज्ञायते
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    rāhugrastadivākarendusadṛśo māyāsamācchādanāt
+    sanmātraḥ karaṇopasaṃharaṇato yo'bhūtsuṣuptaḥ pumān |
+    prāgasvāpsam iti prabodhasamaye yaḥ pratyabhijñāyate
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: राहु
+    lemma: राहु
+    dictionary_headword: राहु
+
+    iast:
+      surface: rāhu
+      lemma: rāhu
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: Rāhu
+
+  - id: LU-002
+    surface: ग्रस्त
+    lemma: ग्रस्त
+    dictionary_headword: ग्रस्त
+
+    iast:
+      surface: grasta
+      lemma: grasta
+
+    pos: participle
+
+    verbal_root: ग्रस्
+
+    participle: past passive participle
+
+    compound:
+      member: true
+
+    gloss: seized
+
+  - id: LU-003
+    surface: दिवाकर
+    lemma: दिवाकर
+    dictionary_headword: दिवाकर
+
+    iast:
+      surface: divākara
+      lemma: divākara
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: sun
+
+  - id: LU-004
+    surface: इन्दु
+    lemma: इन्दु
+    dictionary_headword: इन्दु
+
+    iast:
+      surface: indu
+      lemma: indu
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: moon
+
+  - id: LU-005
+    surface: सदृशः
+    lemma: सदृश
+    dictionary_headword: सदृश
+
+    iast:
+      surface: sadṛśaḥ
+      lemma: sadṛśa
+
+    pos: adjective
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: resembling
+
+  - id: LU-006
+    surface: माया
+    lemma: माया
+    dictionary_headword: माया
+
+    iast:
+      surface: māyā
+      lemma: māyā
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: māyā
+
+  - id: LU-007
+    surface: समाच्छादनात्
+    lemma: समाच्छादन
+    dictionary_headword: समाच्छादन
+
+    iast:
+      surface: samācchādanāt
+      lemma: samācchādana
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from the covering
+
+  - id: LU-008
+    surface: सन्मात्रः
+    lemma: सन्मात्र
+    dictionary_headword: सन्मात्र
+
+    iast:
+      surface: sanmātraḥ
+      lemma: sanmātra
+
+    pos: adjective
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: pure Being alone
+
+  - id: LU-009
+    surface: करण
+    lemma: करण
+    dictionary_headword: करण
+
+    iast:
+      surface: karaṇa
+      lemma: karaṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: stem
+
+    compound:
+      member: true
+
+    gloss: sense organ
+
+  - id: LU-010
+    surface: उपसंहरणतः
+    lemma: उपसंहरण
+    dictionary_headword: उपसंहरण
+
+    iast:
+      surface: upasaṃharaṇataḥ
+      lemma: upasaṃharaṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from the withdrawal
+
+  - id: LU-011
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-012
+    surface: अभूत्
+    lemma: भू
+    dictionary_headword: भू
+
+    iast:
+      surface: abhūt
+      lemma: bhū
+
+    pos: verb
+
+    verbal_root: भू
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: became
+
+  - id: LU-013
+    surface: सुषुप्तः
+    lemma: सुषुप्त
+    dictionary_headword: सुषुप्त
+
+    iast:
+      surface: suṣuptaḥ
+      lemma: suṣupta
+
+    pos: adjective
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: in deep sleep
+
+  - id: LU-014
+    surface: पुमान्
+    lemma: पुमान्
+    dictionary_headword: पुमान्
+
+    iast:
+      surface: pumān
+      lemma: pumān
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: person
+
+  - id: LU-015
+    surface: प्राक्
+    lemma: प्राक्
+    dictionary_headword: प्राक्
+
+    iast:
+      surface: prāk
+      lemma: prāk
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: before
+
+  - id: LU-016
+    surface: अस्वाप्सम्
+    lemma: स्वप्
+    dictionary_headword: स्वप्
+
+    iast:
+      surface: asvāpsam
+      lemma: svap
+
+    pos: verb
+
+    verbal_root: स्वप्
+
+    person: first
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: I slept
+
+  - id: LU-017
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-018
+    surface: प्रबोधसमये
+    lemma: प्रबोधसमय
+    dictionary_headword: प्रबोधसमय
+
+    iast:
+      surface: prabodhasamaye
+      lemma: prabodhasamaya
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: true
+
+    gloss: at the time of awakening
+
+  - id: LU-019
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-020
+    surface: प्रत्यभिज्ञायते
+    lemma: प्रत्यभिज्ञा
+    dictionary_headword: प्रत्यभिज्ञा
+
+    iast:
+      surface: pratyabhijñāyate
+      lemma: pratyabhijñā
+
+    pos: verb
+
+    verbal_root: ज्ञा
+
+    person: third
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: is recognized
+
+  - id: LU-021
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-022
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-023
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-024
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-025
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: Rāhu
+
+  - lexical_unit: LU-002
+    meaning: seized
+
+  - lexical_unit: LU-003
+    meaning: the sun
+
+  - lexical_unit: LU-004
+    meaning: the moon
+
+  - lexical_unit: LU-005
+    meaning: resembling
+
+  - lexical_unit: LU-006
+    meaning: māyā
+
+  - lexical_unit: LU-007
+    meaning: from the covering
+
+  - lexical_unit: LU-008
+    meaning: pure Being alone
+
+  - lexical_unit: LU-009
+    meaning: the sense organs
+
+  - lexical_unit: LU-010
+    meaning: from the withdrawal
+
+  - lexical_unit: LU-011
+    meaning: who
+
+  - lexical_unit: LU-012
+    meaning: became
+
+  - lexical_unit: LU-013
+    meaning: in deep sleep
+
+  - lexical_unit: LU-014
+    meaning: the person
+
+  - lexical_unit: LU-015
+    meaning: before
+
+  - lexical_unit: LU-016
+    meaning: I slept
+
+  - lexical_unit: LU-017
+    meaning: thus
+
+  - lexical_unit: LU-018
+    meaning: at the time of awakening
+
+  - lexical_unit: LU-019
+    meaning: who
+
+  - lexical_unit: LU-020
+    meaning: is recognized
+
+  - lexical_unit: LU-021
+    meaning: unto Him
+
+  - lexical_unit: LU-022
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-023
+    meaning: salutation
+
+  - lexical_unit: LU-024
+    meaning: this
+
+  - lexical_unit: LU-025
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    Like the sun or the moon obscured by Rāhu, the Self, though pure
+    Being alone, appears concealed through the covering power of māyā.
+    When the activities of the sense organs are withdrawn, a person
+    abides in deep sleep. Yet upon awakening one recognizes,
+    "I slept before." To Him by whom this continuity of awareness is
+    made evident, to Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this
+    salutation is offered.

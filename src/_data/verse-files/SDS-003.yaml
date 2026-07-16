@@ -1,0 +1,627 @@
+csf: 1.0.0
+
+document:
+  id: sri-dakshinamurti-stotram
+
+verse:
+  id: SDS-003
+  order: 3
+  display_number: "॥ ३ ॥"
+
+source:
+  devanagari: |
+    यस्यैव स्फुरणं सदात्मकमसत्कल्पार्थकं भासते
+    साक्षात्तत्त्वमसीति वेदवचसा यो बोधयत्याश्रितान् ।
+    यत्साक्षात्करणाद्भवेन्न पुनरावृत्तिर्भवाम्भोनिधौ
+    तस्मै श्रीगुरुमूर्तये नम इदं श्रीदक्षिणामूर्तये ॥
+
+  iast: |
+    yasyaiva sphuraṇaṃ sadātmakam asatkalpārthakaṃ bhāsate
+    sākṣāt tattvam asīti vedavacasā yo bodhayaty āśritān |
+    yatsākṣātkaraṇād bhaven na punarāvṛttir bhavāmbhonidhau
+    tasmai śrī-gurumūrtaye nama idaṃ śrī-dakṣiṇāmūrtaye ||
+
+lexical_units:
+  - id: LU-001
+    surface: यस्य
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yasya
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: genitive
+
+    compound:
+      member: false
+
+    gloss: whose
+
+  - id: LU-002
+    surface: एव
+    lemma: एव
+    dictionary_headword: एव
+
+    iast:
+      surface: eva
+      lemma: eva
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: indeed
+
+  - id: LU-003
+    surface: स्फुरणम्
+    lemma: स्फुरण
+    dictionary_headword: स्फुरण
+
+    iast:
+      surface: sphuraṇam
+      lemma: sphuraṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: manifestation
+
+  - id: LU-004
+    surface: सदात्मकम्
+    lemma: सदात्मक
+    dictionary_headword: सदात्मक
+
+    iast:
+      surface: sadātmakam
+      lemma: sadātmaka
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: of the nature of Being
+
+  - id: LU-005
+    surface: असत्कल्पार्थकम्
+    lemma: असत्कल्पार्थक
+    dictionary_headword: असत्कल्पार्थक
+
+    iast:
+      surface: asatkalpārthakam
+      lemma: asatkalpārthaka
+
+    pos: adjective
+
+    gender: neuter
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: appearing as the unreal
+
+  - id: LU-006
+    surface: भासते
+    lemma: भास्
+    dictionary_headword: भास्
+
+    iast:
+      surface: bhāsate
+      lemma: bhās
+
+    pos: verb
+
+    verbal_root: भास्
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: ātmanepada
+
+    compound:
+      member: false
+
+    gloss: appears
+
+  - id: LU-007
+    surface: साक्षात्
+    lemma: साक्षात्
+    dictionary_headword: साक्षात्
+
+    iast:
+      surface: sākṣāt
+      lemma: sākṣāt
+
+    pos: adverb
+
+    compound:
+      member: false
+
+    gloss: directly
+
+  - id: LU-008
+    surface: तत्त्वम्
+    lemma: तत्त्व
+    dictionary_headword: तत्त्व
+
+    iast:
+      surface: tattvam
+      lemma: tattva
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: true
+
+    gloss: Reality
+
+  - id: LU-009
+    surface: असि
+    lemma: अस्
+    dictionary_headword: अस्
+
+    iast:
+      surface: asi
+      lemma: as
+
+    pos: verb
+
+    verbal_root: अस्
+
+    lakara: laṭ
+    person: second
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: true
+
+    gloss: are
+
+  - id: LU-010
+    surface: इति
+    lemma: इति
+    dictionary_headword: इति
+
+    iast:
+      surface: iti
+      lemma: iti
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: thus
+
+  - id: LU-011
+    surface: वेदवचसा
+    lemma: वेदवचस्
+    dictionary_headword: वेदवचस्
+
+    iast:
+      surface: vedavacasā
+      lemma: vedavacas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: instrumental
+
+    compound:
+      member: true
+
+    gloss: by the words of the Veda
+
+  - id: LU-012
+    surface: यः
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yaḥ
+      lemma: yad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: who
+
+  - id: LU-013
+    surface: बोधयति
+    lemma: बोधय्
+    dictionary_headword: बोधय्
+
+    iast:
+      surface: bodhayati
+      lemma: bodhay
+
+    pos: verb
+
+    verbal_root: बुध्
+
+    lakara: laṭ
+    person: third
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: teaches
+
+  - id: LU-014
+    surface: आश्रितान्
+    lemma: आश्रित
+    dictionary_headword: आश्रित
+
+    iast:
+      surface: āśritān
+      lemma: āśrita
+
+    pos: noun
+
+    gender: masculine
+    number: plural
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: those who have taken refuge
+
+  - id: LU-015
+    surface: यत्
+    lemma: यद्
+    dictionary_headword: यद्
+
+    iast:
+      surface: yat
+      lemma: yad
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from which
+
+  - id: LU-016
+    surface: साक्षात्करणात्
+    lemma: साक्षात्करण
+    dictionary_headword: साक्षात्करण
+
+    iast:
+      surface: sākṣātkaraṇāt
+      lemma: sākṣātkaraṇa
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+    case: ablative
+
+    compound:
+      member: false
+
+    gloss: from direct realization
+
+  - id: LU-017
+    surface: भवेत्
+    lemma: भू
+    dictionary_headword: भू
+
+    iast:
+      surface: bhavet
+      lemma: bhū
+
+    pos: verb
+
+    verbal_root: भू
+
+    lakara: vidhiliṅ
+    person: third
+    number: singular
+    pada: parasmaipada
+
+    compound:
+      member: false
+
+    gloss: would be
+
+  - id: LU-018
+    surface: न
+    lemma: न
+    dictionary_headword: न
+
+    iast:
+      surface: na
+      lemma: na
+
+    pos: particle
+
+    compound:
+      member: false
+
+    gloss: not
+
+  - id: LU-019
+    surface: पुनः
+    lemma: पुनः
+    dictionary_headword: पुनः
+
+    iast:
+      surface: punaḥ
+      lemma: punaḥ
+
+    pos: indeclinable
+
+    compound:
+      member: false
+
+    gloss: again
+
+  - id: LU-020
+    surface: आवृत्तिः
+    lemma: आवृत्ति
+    dictionary_headword: आवृत्ति
+
+    iast:
+      surface: āvṛttiḥ
+      lemma: āvṛtti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: nominative
+
+    compound:
+      member: false
+
+    gloss: return
+
+  - id: LU-021
+    surface: भवाम्भोनिधौ
+    lemma: भवाम्भोनिधि
+    dictionary_headword: भवाम्भोनिधि
+
+    iast:
+      surface: bhavāmbhonidhau
+      lemma: bhavāmbhonidhi
+
+    pos: noun
+
+    gender: masculine
+    number: singular
+    case: locative
+
+    compound:
+      member: true
+
+    gloss: in the ocean of becoming
+
+  - id: LU-022
+    surface: तस्मै
+    lemma: तद्
+    dictionary_headword: तद्
+
+    iast:
+      surface: tasmai
+      lemma: tad
+
+    pos: pronoun
+
+    gender: masculine
+    number: singular
+    case: dative
+
+    compound:
+      member: false
+
+    gloss: unto Him
+
+  - id: LU-023
+    surface: श्रीगुरुमूर्तये
+    lemma: श्रीगुरुमूर्ति
+    dictionary_headword: श्रीगुरुमूर्ति
+
+    iast:
+      surface: śrīgurumūrtaye
+      lemma: śrīgurumūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Gurumūrti
+
+  - id: LU-024
+    surface: नमः
+    lemma: नमस्
+    dictionary_headword: नमस्
+
+    iast:
+      surface: namaḥ
+      lemma: namas
+
+    pos: noun
+
+    gender: neuter
+    number: singular
+
+    compound:
+      member: false
+
+    gloss: salutation
+
+  - id: LU-025
+    surface: इदम्
+    lemma: इदम्
+    dictionary_headword: इदम्
+
+    iast:
+      surface: idam
+      lemma: idam
+
+    pos: pronoun
+
+    gender: neuter
+    number: singular
+    case: accusative
+
+    compound:
+      member: false
+
+    gloss: this
+
+  - id: LU-026
+    surface: श्रीदक्षिणामूर्तये
+    lemma: श्रीदक्षिणामूर्ति
+    dictionary_headword: श्रीदक्षिणामूर्ति
+
+    iast:
+      surface: śrīdakṣiṇāmūrtaye
+      lemma: śrīdakṣiṇāmūrti
+
+    pos: noun
+
+    gender: feminine
+    number: singular
+    case: dative
+
+    compound:
+      member: true
+
+    gloss: Śrī Dakṣiṇāmūrti
+
+word_by_word:
+  - lexical_unit: LU-001
+    meaning: whose
+
+  - lexical_unit: LU-002
+    meaning: indeed
+
+  - lexical_unit: LU-003
+    meaning: manifestation
+
+  - lexical_unit: LU-004
+    meaning: of the nature of Being
+
+  - lexical_unit: LU-005
+    meaning: appearing as the unreal
+
+  - lexical_unit: LU-006
+    meaning: appears
+
+  - lexical_unit: LU-007
+    meaning: directly
+
+  - lexical_unit: LU-008
+    meaning: Reality
+
+  - lexical_unit: LU-009
+    meaning: thou art
+
+  - lexical_unit: LU-010
+    meaning: thus
+
+  - lexical_unit: LU-011
+    meaning: by the words of the Veda
+
+  - lexical_unit: LU-012
+    meaning: who
+
+  - lexical_unit: LU-013
+    meaning: teaches
+
+  - lexical_unit: LU-014
+    meaning: those who have taken refuge
+
+  - lexical_unit: LU-015
+    meaning: from which
+
+  - lexical_unit: LU-016
+    meaning: from direct realization
+
+  - lexical_unit: LU-017
+    meaning: there would be
+
+  - lexical_unit: LU-018
+    meaning: not
+
+  - lexical_unit: LU-019
+    meaning: again
+
+  - lexical_unit: LU-020
+    meaning: return
+
+  - lexical_unit: LU-021
+    meaning: in the ocean of becoming
+
+  - lexical_unit: LU-022
+    meaning: unto Him
+
+  - lexical_unit: LU-023
+    meaning: to Śrī Gurumūrti
+
+  - lexical_unit: LU-024
+    meaning: salutation
+
+  - lexical_unit: LU-025
+    meaning: this
+
+  - lexical_unit: LU-026
+    meaning: to Śrī Dakṣiṇāmūrti
+
+literary_translation:
+  language: en
+  version: 1.0.0
+  status: canonical
+
+  text: >
+    That very Self, whose luminous manifestation is of the nature of
+    absolute Being, appears as though the unreal were real. He who,
+    through the Vedic declaration "Tat Tvam Asi", directly instructs
+    those who seek refuge in Him, revealing their true identity—by
+    whose direct realization there is no return to the ocean of worldly
+    existence—to that Śrī Gurumūrti, to Śrī Dakṣiṇāmūrti, this
+    salutation is offered.

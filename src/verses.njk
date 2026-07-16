@@ -1,0 +1,72 @@
+---
+pagination:
+  data: verses
+  size: 1
+  alias: v
+permalink: "/verses/{{ v.verse.id | slugify }}/"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "{{ v.document.id }} {{ v.verse.display_number }}"
+---
+<div class="wrap verse-page">
+
+  <div class="verse-heading">
+    <span class="verse-number">{{ v.verse.display_number }}</span>
+    <span class="verse-doc-title">{{ site.title }}</span>
+  </div>
+
+  <div class="verse-source">
+    <div class="verse-source-deva">
+      {% for line in v.source.devanagari | splitLines %}
+        <span>{{ line }}</span>
+      {% endfor %}
+    </div>
+    <div class="verse-source-iast">
+      {% for line in v.source.iast | splitLines %}
+        <span>{{ line }}</span>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="verse-translation">
+    <span class="verse-translation-label">Translation</span>
+    <p>{{ v.literary_translation.text }}</p>
+  </div>
+
+  {% if v.lexical_units and v.lexical_units.length %}
+  <div class="wbw-wrap">
+    <button type="button" class="wbw-toggle" data-wbw-toggle aria-expanded="false" aria-controls="wbw-{{ v.verse.id }}">
+      Word-by-word <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+  <div class="wbw-panel" id="wbw-{{ v.verse.id }}">
+    <div class="wbw-grid">
+      {% for lu in v.lexical_units %}
+      <div class="wbw-card{% if lu.compound and lu.compound.member %} is-compound{% endif %}">
+        <div class="wbw-card-deva">{{ lu.surface }}</div>
+        <div class="wbw-card-iast">{{ lu.iast.surface }}</div>
+        <div class="wbw-card-gloss">{{ lu.gloss }}</div>
+        <div class="wbw-card-tags">{{ lu | grammarTag }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <nav class="verse-nav" aria-label="Verse navigation">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg> Previous</a>
+    {% else %}
+      <span></span>
+    {% endif %}
+
+    <span class="verse-nav-spacer"><a href="/verses/" class="verse-nav-contents">Contents</a></span>
+
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">Next <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
+    {% else %}
+      <span></span>
+    {% endif %}
+  </nav>
+
+</div>

@@ -11,7 +11,7 @@ translation — built with [Eleventy](https://www.11ty.dev/) as a static site.
 ```sh
 npm install
 npm run serve      # dev server with live reload, http://localhost:8080
-npm run build      # production build to _site/
+npm run build       # production build to _site/
 ```
 
 Requires Node 18+.
@@ -87,7 +87,6 @@ Available inside any `.md` page:
 | `{% figure "/path.jpg", "alt text", "caption" %}` | image with optional caption |
 
 Markdown pages also support:
-
 - **Footnotes** — `text[^1]` ... `[^1]: note text` (via markdown-it-footnote)
 - **Abbreviations** — `*[abbr]: expansion` anywhere in the file, then just
   write `abbr` in text; renders as a hoverable `<abbr>` tag

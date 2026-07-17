@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this translation or edition, please cite it as below."
+title: "Śrī Dakṣiṇāmūrti Stotram: Sanskrit Text, Transliteration, and Annotated English Translation"
+type: dataset
+authors:
+  - name: "Ivan Markovich"
+    orcid: "https://orcid.org/0009-0008-9855-5229"
+    alias: "oleandrum"
+repository-code: "https://github.com/oleandrum/dakshinamurti-stotram"
+url: "https://oleandrum.github.io/dakshinamurti-stotram/"
+license: "CC-BY-NC-SA-4.0"
+keywords:
+  - Sanskrit
+  - Dakshinamurti
+  - Shankaracharya
+  - Advaita Vedanta
+  - stotra
+  - IAST transliteration
+  - digital humanities
+abstract: >-
+  A digital scholarly edition of the Śrī Dakṣiṇāmūrti Stotram, traditionally
+  attributed to Ādi Śaṅkarācārya. Presents the Devanagari source text, IAST
+  transliteration, a literary English translation, and word-by-word
+  grammatical analysis with a cross-linked glossary, published as a static
+  site built with Eleventy.
+version: 1.0.0
+date-released: "2026-07-16"

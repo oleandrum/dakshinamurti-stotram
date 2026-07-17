@@ -44,19 +44,19 @@ title: ""
     <p class="home-verse-translation">{{ first.literary_translation.text }}</p>
 
     <div class="home-actions">
-      <a class="btn btn-primary" href="/verses/{{ first.verse.id | slugify }}/">Begin reading
+      <a class="btn btn-primary" href="{{ ('/verses/' ~ (first.verse.id | slugify) ~ '/') | url }}">Begin reading
         <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
       </a>
-      <a class="btn" href="/verses/">Contents</a>
+      <a class="btn" href="{{ '/verses/' | url }}">Contents</a>
     </div>
   </section>
 
   <section class="home-cards">
-    <a class="home-card" href="/about/">
+    <a class="home-card" href="{{ '/about/' | url }}">
       <h2>About the text</h2>
       <p>Śaṅkarācārya, Dakṣiṇāmūrti, and the iconography of the silent teacher.</p>
     </a>
-    <a class="home-card" href="/glossary/">
+    <a class="home-card" href="{{ '/glossary/' | url }}">
       <h2>Word by word</h2>
       <p>Every verse parsed unit by unit, with grammar tags and a cross-linked glossary.</p>
     </a>
@@ -64,8 +64,8 @@ title: ""
       <h2>Downloads</h2>
       <p>For offline reading, or to study the source.</p>
       <div class="home-card-links">
-        <a class="download-btn" href="/downloads/{{ site.slug }}.pdf" download>PDF</a>
-        <a class="download-btn" href="/downloads/{{ site.slug }}.epub" download>EPUB</a>
+        <a class="download-btn" href="{{ ('/downloads/' ~ site.slug ~ '.pdf') | url }}" download>PDF</a>
+        <a class="download-btn" href="{{ ('/downloads/' ~ site.slug ~ '.epub') | url }}" download>EPUB</a>
         <a class="download-btn" href="{{ site.repo }}" target="_blank" rel="noopener">Source</a>
       </div>
     </div>

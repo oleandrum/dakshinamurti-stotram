@@ -14,7 +14,7 @@ title: "Glossary"
       <span class="glossary-gloss">{{ entry.gloss }}</span>
       <span class="glossary-occurrences">
         {% for occ in entry.occurrences %}
-          <a href="/verses/{{ occ.verseId | slugify }}/">{{ occ.displayNumber }}</a>
+          <a href="{{ ('/verses/' ~ (occ.verseId | slugify) ~ '/') | url }}">{{ occ.displayNumber }}</a>
         {% endfor %}
       </span>
     </li>

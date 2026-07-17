@@ -173,6 +173,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/dakshinamurti-stotram/",
     dir: {
       input: "src",
       output: "_site",

@@ -10,7 +10,7 @@ permalink: /verses/
   <ul class="verse-list">
     {% for v in verses %}
     <li>
-      <a href="/verses/{{ v.verse.id | slugify }}/">
+      <a href="{{ ('/verses/' ~ (v.verse.id | slugify) ~ '/') | url }}">
         <span class="verse-list-number">{{ v.verse.order }}</span>
         <span class="verse-list-deva">{{ v.source.devanagari | splitLines | first }} …</span>
       </a>

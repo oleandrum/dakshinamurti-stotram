@@ -60,7 +60,7 @@ eleventyComputed:
       <span></span>
     {% endif %}
 
-    <span class="verse-nav-spacer"><a href="/verses/" class="verse-nav-contents">Contents</a></span>
+    <span class="verse-nav-spacer"><a href="{{ '/verses/' | url }}" class="verse-nav-contents">Contents</a></span>
 
     {% if pagination.href.next %}
       <a href="{{ pagination.href.next }}">Next <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>

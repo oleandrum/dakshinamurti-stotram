@@ -1,12 +1,12 @@
 ---
 pagination:
-data: verses
-size: 1
-alias: v
+  data: verses
+  size: 1
+  alias: v
 permalink: "/verses/{{ v.verse.id | slugify }}/"
 layout: layouts/base.njk
 eleventyComputed:
-title: "{{ v.document.id }} {{ v.verse.display_number }}"
+  title: "{{ v.document.id }} {{ v.verse.display_number }}"
 ---
 <div class="wrap verse-page">
 
@@ -18,12 +18,12 @@ title: "{{ v.document.id }} {{ v.verse.display_number }}"
   <div class="verse-source">
     <div class="verse-source-deva">
       {% for line in v.source.devanagari | splitLines %}
-      <span>{{ line }}</span>
+        <span>{{ line }}</span>
       {% endfor %}
     </div>
     <div class="verse-source-iast">
       {% for line in v.source.iast | splitLines %}
-      <span>{{ line }}</span>
+        <span>{{ line }}</span>
       {% endfor %}
     </div>
   </div>
@@ -36,9 +36,7 @@ title: "{{ v.document.id }} {{ v.verse.display_number }}"
   {% if v.lexical_units and v.lexical_units.length %}
   <div class="wbw-wrap">
     <button type="button" class="wbw-toggle" data-wbw-toggle aria-expanded="false" aria-controls="wbw-{{ v.verse.id }}">
-      Word-by-word <svg viewBox="0 0 24 24">
-        <path d="M6 9l6 6 6-6" />
-      </svg>
+      Word-by-word <svg viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></svg>
     </button>
   </div>
   <div class="wbw-panel" id="wbw-{{ v.verse.id }}">
@@ -57,21 +55,17 @@ title: "{{ v.document.id }} {{ v.verse.display_number }}"
 
   <nav class="verse-nav" aria-label="Verse navigation">
     {% if pagination.href.previous %}
-    <a href="{{ pagination.href.previous | url }}"><svg viewBox="0 0 24 24">
-        <path d="M15 6l-6 6 6 6" />
-      </svg> Previous</a>
+      <a href="{{ pagination.href.previous | url }}"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg> Previous</a>
     {% else %}
-    <span></span>
+      <span></span>
     {% endif %}
 
     <span class="verse-nav-spacer"><a href="{{ '/verses/' | url }}" class="verse-nav-contents">Contents</a></span>
 
     {% if pagination.href.next %}
-    <a href="{{ pagination.href.next | url }}">Next <svg viewBox="0 0 24 24">
-        <path d="M9 6l6 6-6 6" />
-      </svg></a>
+      <a href="{{ pagination.href.next | url }}">Next <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></a>
     {% else %}
-    <span></span>
+      <span></span>
     {% endif %}
   </nav>
 

@@ -15,7 +15,7 @@ The traditional closing verse of the hymn declares its own fruits of study:
 
 ## Text and edition
 
-The Devanagari source text follows the commonly received recension of the stotram as chanted in South Indian tradition. Variant readings exist across regional editions; where encountered, they are noted in the [transliteration notes](/transliteration-notes/).
+The Devanagari source text follows the commonly received recension of the stotram as chanted in South Indian tradition. Variant readings exist across regional editions; where encountered, they are noted in the [transliteration notes]({{ "/transliteration-notes/" | url }}).
 
 ## Colophon of the source hymn
 

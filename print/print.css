@@ -1,0 +1,211 @@
+/* Print edition — Śrī Dakṣiṇāmūrti Stotram (A4 portrait, site style) */
+
+@font-face { font-family: "Tiro Devanagari Sanskrit"; src: url("fonts/TiroDevanagariSanskrit-Regular.ttf"); }
+@font-face { font-family: "Gentium Book Plus"; src: url("fonts/GentiumBookPlus-Regular.ttf"); }
+@font-face { font-family: "Gentium Book Plus"; font-style: italic; src: url("fonts/GentiumBookPlus-Italic.ttf"); }
+@font-face { font-family: "Source Serif 4"; font-weight: 400; src: url("fonts/SourceSerif4-Regular.ttf"); }
+@font-face { font-family: "Source Serif 4"; font-weight: 600; src: url("fonts/SourceSerif4-Semibold.ttf"); }
+@font-face { font-family: "Source Serif 4"; font-weight: 700; src: url("fonts/SourceSerif4-Bold.ttf"); }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 400; src: url("fonts/SourceSerif4-Italic.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 400; src: url("fonts/JetBrainsMono-Regular.ttf"); }
+@font-face { font-family: "JetBrains Mono"; font-weight: 500; src: url("fonts/JetBrainsMono-Medium.ttf"); }
+
+/* Palette — the site's light theme */
+:root {
+  --paper: #f6efdf;
+  --surface: #fbf6ea;
+  --hair: #ddcfae;
+  --hair-soft: #e8dcbf;
+  --ink: #2b2116;
+  --ink-dim: #6b5d46;
+  --bronze: #a8672e;
+  --bronze-dim: #7a4e22;
+}
+
+@page {
+  size: A4 portrait;
+  margin: 22mm 20mm 24mm;
+  background: #f6efdf;
+  @bottom-center {
+    content: counter(page);
+    font-family: "JetBrains Mono";
+    font-size: 8pt;
+    color: #6b5d46;
+  }
+  @top-center {
+    content: "Śrī Dakṣiṇāmūrti Stotram";
+    font-family: "JetBrains Mono";
+    font-size: 7pt;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #6b5d46;
+  }
+}
+@page cover {
+  margin: 0;
+  background: #f6efdf;
+  @bottom-center { content: none; }
+  @top-center { content: none; }
+}
+
+html { font-size: 10.5pt; }
+body {
+  font-family: "Source Serif 4";
+  color: var(--ink);
+  line-height: 1.62;
+  margin: 0;
+}
+
+/* ---------- Cover ---------- */
+.cover {
+  page: cover;
+  height: 297mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.cover-mark { width: 22mm; height: 22mm; margin-bottom: 10mm; }
+.cover-title { margin: 0 0 8mm; line-height: 1.18; }
+.ct-main { font-size: 29pt; font-weight: 600; color: var(--ink); letter-spacing: -.01em; }
+.ct-accent { font-size: 20pt; font-weight: 400; color: var(--bronze); letter-spacing: .22em; text-transform: uppercase; }
+.cover-deva { font-family: "Tiro Devanagari Sanskrit"; font-size: 15pt; color: var(--ink-dim); margin: 0 0 12mm; }
+.cover-tagline {
+  font-family: "JetBrains Mono"; font-size: 7.5pt; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--ink-dim); margin: 0;
+}
+.cover-foot {
+  position: absolute; bottom: 18mm; left: 0; right: 0; text-align: center;
+  font-family: "JetBrains Mono"; font-size: 7pt; color: var(--ink-dim); letter-spacing: .06em;
+}
+
+/* ---------- Chapters ---------- */
+.chapter { break-before: page; }
+h2 {
+  font-size: 17pt; font-weight: 600; color: var(--ink);
+  margin: 0 0 4mm; padding-bottom: 2.5mm;
+  border-bottom: .6pt solid var(--hair);
+}
+h2::after { content: ""; }
+h3 { font-size: 12pt; font-weight: 600; color: var(--bronze-dim); margin: 7mm 0 2.5mm; }
+
+/* ---------- Contents ---------- */
+.toc { list-style: none; padding: 0; margin: 8mm 0 0; }
+.toc li { margin: 0 0 1mm; }
+.toc a {
+  display: flex; align-items: baseline; gap: 3mm;
+  text-decoration: none; color: var(--ink); font-size: 11.5pt;
+}
+.toc a::after {
+  content: target-counter(attr(href), page);
+  font-family: "JetBrains Mono"; font-size: 9pt; color: var(--bronze);
+  order: 3;
+}
+.toc li a::before { content: ""; order: 2; flex: 1; border-bottom: .5pt dotted var(--hair); margin: 0 1mm; transform: translateY(-2pt); }
+
+/* ---------- Prose ---------- */
+.prose p { margin: 0 0 3.2mm; text-align: justify; hyphens: auto; }
+.prose em, .intro em { font-style: italic; }
+abbr { text-decoration: none; }
+
+/* Callouts (site style, no left line) */
+.callout, .callout-note, .callout-warning, .callout-tip {
+  background: var(--surface); border: .5pt solid var(--hair-soft);
+  border-radius: 3mm; padding: 4mm 5mm; margin: 5mm 0;
+  break-inside: avoid;
+}
+.callout-title, .callout p.callout-title {
+  font-family: "JetBrains Mono"; font-size: 7.5pt; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--bronze); margin: 0 0 2mm;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+blockquote, .pull-quote {
+  margin: 5mm 0; padding: 1mm 0 1mm 5mm;
+  border-left: 1.2pt solid var(--bronze-dim);
+  font-family: "Gentium Book Plus"; font-style: italic; color: var(--ink-dim);
+}
+
+/* Tables (abbreviations) */
+table { width: 100%; border-collapse: collapse; margin: 5mm 0; font-size: 9.5pt; break-inside: avoid; }
+th {
+  font-family: "JetBrains Mono"; font-size: 7pt; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--ink-dim); text-align: left; padding: 1.6mm 2.5mm; border-bottom: 1pt solid var(--hair);
+}
+td { padding: 1.4mm 2.5mm; border-bottom: .4pt solid var(--hair-soft); }
+
+/* Transliteration reference grid */
+.tt { margin: 5mm 0; }
+.tt-label {
+  font-family: "JetBrains Mono"; font-size: 7.5pt; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--bronze); margin: 5mm 0 2mm;
+}
+.tt-grid { display: grid; gap: 1.6mm; margin: 0 0 1.6mm; break-inside: avoid; }
+.tt-grid--5 { grid-template-columns: repeat(5, 1fr); }
+.tt-grid--7 { grid-template-columns: repeat(7, 1fr); }
+.tt-cell {
+  display: block;
+  background: var(--surface); border: .5pt solid var(--hair-soft); border-radius: 1.8mm;
+  padding: 1.8mm 1mm 1.4mm; text-align: center;
+}
+.tt-deva { display: block; font-family: "Tiro Devanagari Sanskrit"; font-size: 11.5pt; color: var(--ink); }
+.tt-iast { display: block; font-family: "Gentium Book Plus"; font-style: italic; font-size: 8pt; color: var(--bronze); margin-top: .8mm; }
+
+/* Devanagari / IAST script blocks inside prose */
+[lang="sa"] { font-family: "Tiro Devanagari Sanskrit"; }
+.script-block--deva { font-family: "Tiro Devanagari Sanskrit"; font-size: 12pt; text-align: center; margin: 4mm 0; }
+.script-block--iast { font-family: "Gentium Book Plus"; font-style: italic; text-align: center; color: var(--ink-dim); margin: 2mm 0 4mm; }
+
+/* ---------- Verses ---------- */
+.verse { margin: 0 0 8mm; padding: 6mm 7mm 5.5mm; background: var(--surface);
+  border: .5pt solid var(--hair-soft); border-radius: 3.5mm; break-inside: avoid; }
+.verse-num {
+  font-family: "Tiro Devanagari Sanskrit"; font-size: 10.5pt; color: var(--bronze);
+  text-align: center; margin: 0 0 3.5mm;
+}
+.v-deva {
+  font-family: "Tiro Devanagari Sanskrit"; font-size: 12.5pt; line-height: 1.55;
+  text-align: center; margin: 0 0 3mm; color: var(--ink);
+}
+.v-iast {
+  font-family: "Gentium Book Plus"; font-style: italic; font-size: 10pt; line-height: 1.6;
+  text-align: center; color: var(--ink-dim); margin: 0 0 4mm;
+}
+.v-trans {
+  font-size: 10pt; line-height: 1.65; text-align: justify; hyphens: auto;
+  margin: 0; padding-top: 3.5mm; border-top: .4pt solid var(--hair-soft);
+}
+.wbw-label {
+  font-family: "JetBrains Mono"; font-size: 7pt; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--bronze); margin: 4mm 0 2mm;
+}
+.wbw-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.8mm; }
+.wbw {
+  background: #f9f3e3; border: .4pt solid var(--hair-soft); border-radius: 1.8mm;
+  padding: 2mm 2.4mm; break-inside: avoid;
+}
+.wbw span { display: block; }
+.wbw-deva { font-family: "Tiro Devanagari Sanskrit"; font-size: 10pt; }
+.wbw-iast { font-family: "Gentium Book Plus"; font-style: italic; font-size: 8pt; color: var(--bronze-dim); }
+.wbw-gloss { font-size: 8pt; color: var(--ink); margin-top: .8mm; }
+.wbw-tags { font-family: "JetBrains Mono"; font-size: 6pt; color: var(--ink-dim); margin-top: .8mm; letter-spacing: .02em; }
+
+/* ---------- Glossary ---------- */
+.gl-note { font-size: 9.5pt; color: var(--ink-dim); margin: 0 0 5mm; }
+.gl { column-count: 2; column-gap: 8mm; }
+.gl-row {
+  break-inside: avoid; padding: 1.6mm 0; border-bottom: .35pt solid var(--hair-soft);
+  font-size: 9pt; line-height: 1.45;
+}
+.gl-deva { font-family: "Tiro Devanagari Sanskrit"; font-size: 10pt; }
+.gl-iast { font-family: "Gentium Book Plus"; font-style: italic; color: var(--bronze-dim); margin-left: 1.5mm; }
+.gl-gloss { display: block; color: var(--ink); }
+.gl-occ { display: block; font-size: 8pt; color: var(--ink-dim); }
+
+/* Subheadings inside prose chapters — smaller than chapter titles */
+.prose h2 {
+  font-size: 13pt; color: var(--bronze-dim);
+  border-bottom: none; margin: 7mm 0 2.5mm; padding-bottom: 0;
+}

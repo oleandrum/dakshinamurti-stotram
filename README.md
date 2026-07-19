@@ -1,5 +1,7 @@
 # Śrī Dakṣiṇāmūrti Stotram
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21438525.svg)](https://doi.org/10.5281/zenodo.21438525)
+
 A personal translation of the *Śrī Dakṣiṇāmūrti Stotram* — Devanagari text,
 IAST transliteration, word-by-word grammatical analysis, and an English
 translation — built with [Eleventy](https://www.11ty.dev/) as a static site.
@@ -87,6 +89,7 @@ Available inside any `.md` page:
 | `{% figure "/path.jpg", "alt text", "caption" %}` | image with optional caption |
 
 Markdown pages also support:
+
 - **Footnotes** — `text[^1]` ... `[^1]: note text` (via markdown-it-footnote)
 - **Abbreviations** — `*[abbr]: expansion` anywhere in the file, then just
   write `abbr` in text; renders as a hoverable `<abbr>` tag

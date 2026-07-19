@@ -21,4 +21,4 @@ The Devanagari source text follows the commonly received recension of the stotra
 
 The stotram itself closes without an explicit colophon in most editions, its final verse (the *phalaśruti*) serving as its own conclusion — a description of what is gained through hearing, reflecting upon, meditating on, and reciting the hymn.
 
-[^1]: Prepared using the Aksharamukha transliteration toolchain and a custom structured data format (`csf`) for verse-level linguistic annotation.
+[^1]: This edition is archived on Zenodo and citable via DOI: [10.5281/zenodo.21438525](https://doi.org/10.5281/zenodo.21438525).

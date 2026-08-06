@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "js-yaml": "^5.2.1",
+    "js-yaml": "^5.2.2",
     "markdown-it": "^14.3.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-attrs": "^5.0.0",
